@@ -91,7 +91,7 @@ public class TestCase_3 {
 		WebElement tks = driver.findElement(By.xpath("//td[@class='product-picture']//img[@title='Show details for 14.1-inch Laptop']"));
 		
 		File tk= tks.getScreenshotAs(OutputType.FILE);
-		File dest = new File("C:\\Users\\Lenovo\\eclipse-workspace\\SeleniumDemo\\Ss\\Laptop.png");
+		File dest = new File("C:\\Users\\Lenovo\\eclipse-workspace\\SeleniumDemo\\Ss\\Laptop(TestCase_3).png");
 		FileHandler.copy(tk, dest);
 		Thread.sleep(4000);
 		driver.quit();
