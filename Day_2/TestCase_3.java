@@ -30,7 +30,7 @@ public class TestCase_3 {
 		// Maximize the browser window
 		driver.manage().window().maximize();
 		// implicit wait
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		//Navigate to Myntra application.
 		driver.get("https://demowebshop.tricentis.com/");
 		
