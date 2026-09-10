@@ -27,6 +27,7 @@ public class TestCase_2 {
 		driver.findElement(By.xpath("//input[@placeholder='Select A Date']")).click();
 		Thread.sleep(2000);
 		
+		
 		// Click on the button to navigate to the required month
 		driver.findElement(By.xpath("(//button[@type='button'])[2]")).click();
 		Thread.sleep(2000);	

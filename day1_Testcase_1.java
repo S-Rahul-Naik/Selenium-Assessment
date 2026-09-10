@@ -16,7 +16,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.io.FileHandler;
 
-public class day1testcase1 {
+public class day1_Testcase_1 {
 	public static void main(String[] args) throws InterruptedException, IOException {
 		// Open Chrome and prepare the browser for the test.
 		WebDriver d = new ChromeDriver();

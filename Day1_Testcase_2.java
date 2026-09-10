@@ -19,7 +19,7 @@ TestCase-2
 4. Verify whether it is added or not.
 */
 
-public class Day_One {
+public class Day1_Testcase_2 {
 
 	public static void main(String[] args) throws InterruptedException {
 		
