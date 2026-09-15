@@ -31,7 +31,10 @@ public class TestCase_1 {
 				FileInputStream fis2 = new FileInputStream("src/test/java/Assessment/Day_6/day6.xlsx");
 				Workbook wb = WorkbookFactory.create(fis2);
 				String FIRSTNAME = wb.getSheet("sheet1").getRow(1).getCell(0).getStringCellValue();
+				
+				
 				String MIDDLENAME = wb.getSheet("sheet1").getRow(1).getCell(1).getStringCellValue();
+				
 				String LASTNAME = wb.getSheet("sheet1").getRow(1).getCell(2).getStringCellValue();
 				String USERNAMEPIM = wb.getSheet("sheet1").getRow(1).getCell(4).getStringCellValue();
 				String PASSWORDPIM = wb.getSheet("sheet1").getRow(1).getCell(5).getStringCellValue();
@@ -49,7 +52,6 @@ public class TestCase_1 {
 				if(BROWSER.equalsIgnoreCase("Firefox")) {
 					driver=new FirefoxDriver();
 				}
-				
 				driver.manage().window().maximize();
 				driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 				//go to orangehrm application
@@ -79,8 +81,7 @@ public class TestCase_1 {
 				//lastname
 				driver.findElement(By.xpath("//input[@name=\"lastName\"]")).sendKeys(LASTNAME);
 				Thread.sleep(2000);
-//				//employeeid
-//				driver.findElement(By.xpath("")).sendKeys(EMPLOYEEID);
+
 				//create login toggle
 				driver.findElement(By.xpath("//span[@class=\"oxd-switch-input oxd-switch-input--active --label-right\"]")).click();
 				Thread.sleep(2000);
@@ -95,15 +96,13 @@ public class TestCase_1 {
 				driver.findElement(By.xpath("//button[@type=\"submit\"]")).click();
 				Thread.sleep(2000);
 				
-				
 				//admin link
 				driver.findElement(By.xpath("//span[normalize-space()=\"Admin\"]")).click();
 				//username
 				driver.findElement(By.xpath("(//input[@class=\"oxd-input oxd-input--active\"])[2]")).sendKeys(USERNAMEPIM);
 				
-				
 				Robot r = new Robot();
-//				//userrole
+//				//select userrole to ess
 				driver.findElement(By.xpath("(//i[@class=\"oxd-icon bi-caret-down-fill oxd-select-text--arrow\"])[1]")).click();
 				r.keyPress(KeyEvent.VK_DOWN);
 				r.keyRelease(KeyEvent.VK_DOWN);
@@ -111,8 +110,8 @@ public class TestCase_1 {
 				r.keyRelease(KeyEvent.VK_DOWN);
 				r.keyPress(KeyEvent.VK_ENTER);
 				r.keyRelease(KeyEvent.VK_ENTER);
-//				driver.findElement(By.xpath("")).click();
-				//employee name
+
+				//select employee name
 				driver.findElement(By.xpath("//input[@placeholder=\"Type for hints...\"]")).sendKeys(EMPLOYEENAME);
 				Thread.sleep(5000);
 				
@@ -120,28 +119,26 @@ public class TestCase_1 {
 				r.keyRelease(KeyEvent.VK_DOWN);
 				r.keyPress(KeyEvent.VK_ENTER);
 				r.keyRelease(KeyEvent.VK_ENTER);
-				//status
+				Thread.sleep(3000);
+				//Select status
 				driver.findElement(By.xpath("(//i[@class=\"oxd-icon bi-caret-down-fill oxd-select-text--arrow\"])[2]")).click();
 				r.keyPress(KeyEvent.VK_DOWN);
 				r.keyRelease(KeyEvent.VK_DOWN);
 				r.keyPress(KeyEvent.VK_ENTER);
 				r.keyRelease(KeyEvent.VK_ENTER);
+				//click on submit
+				Thread.sleep(3000);
 				driver.findElement(By.xpath("//button[@type='submit']")).click();
 				
-				
+				// Validation
 				if(driver.findElement(By.xpath("//div[@class=\"oxd-table-cell oxd-padding-cell\"]/child::div[contains(.,\"Rahul23\")]")).isDisplayed()) {
-					
 					System.out.println("Record is displayed");
 				}else {
 					System.out.println("Record is NOT displayed");
 				}
-				
-				
+								
 				Thread.sleep(5000);
-			//	driver.quit();
-			
-
-
+				driver.quit();
 	}
 
 }
