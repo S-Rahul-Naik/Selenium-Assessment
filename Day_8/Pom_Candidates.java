@@ -1,10 +1,6 @@
 package Assessment.Day_8;
 
-import java.awt.AWTException;
-import java.awt.Robot;
-import java.awt.event.KeyEvent;
 
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -54,8 +50,8 @@ public class Pom_Candidates {
 	
 	@FindBy(xpath="//button[@type=\"submit\"]")
 	private WebElement search;
-
-	@FindBy(xpath="//div[@class=\"oxd-table-body\"]/descendant::div[text()=\"Sugali Rahul Naik\"]")
+	
+	@FindBy(xpath="//div[@class=\"oxd-table-body\"]/descendant:::div[text()=\"Sugali Rahul Naik\"]")
 	private WebElement applicant;
 	
 	@FindBy(xpath="//i[@class=\"oxd-icon bi-caret-down-fill oxd-userdropdown-icon\"]")
@@ -114,12 +110,13 @@ public class Pom_Candidates {
 	}
 	
 	public void getApplicant() {
-		if(applicant.isDisplayed()) {
-			System.out.println("Employee is added 🥳💕❤️");
-			logdrop.click();
-			logout.click();
-			
-		}else {
+		try {
+			if(applicant.isDisplayed()) {
+				System.out.println("Employee is added 🥳💕❤️");
+				logdrop.click();
+				logout.click();	
+			}
+		}catch(Throwable e) {
 			System.out.println("Employee is Not added");
 		}
 		
