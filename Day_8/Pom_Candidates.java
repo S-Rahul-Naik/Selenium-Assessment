@@ -32,7 +32,7 @@ public class Pom_Candidates {
 	@FindBy(xpath="(//div[@class=\"oxd-select-text-input\"])[3]")
 	private WebElement HMDrop;
 	
-	@FindBy(xpath="(//div[@class=\"oxd-select-text-input\"])[3]/parent::div/following-sibling::div/descendant::span[text()=\"manda user\"]")
+	@FindBy(xpath="(//div[@class=\"oxd-select-text-input\"])[3]/parent::div/following-sibling::div/descendant::span[text()=\"Test User\"]")
 	private WebElement hM;
 	
 	
@@ -51,7 +51,7 @@ public class Pom_Candidates {
 	@FindBy(xpath="//button[@type=\"submit\"]")
 	private WebElement search;
 	
-	@FindBy(xpath="//div[@class=\"oxd-table-body\"]/descendant:::div[text()=\"Sugali Rahul Naik\"]")
+	@FindBy(xpath="//div[@class=\"oxd-table-body\"]/descendant::div[text()=\"Sugali Rahul Naik\"]")
 	private WebElement applicant;
 	
 	@FindBy(xpath="//i[@class=\"oxd-icon bi-caret-down-fill oxd-userdropdown-icon\"]")
