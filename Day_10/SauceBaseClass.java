@@ -88,7 +88,5 @@ public class SauceBaseClass {
     @AfterSuite
     public void AS() {
     	Reporter.log("----------------------Disconnect the DB Connection----------------------",true);
-    }
-    
-    
+    }    
 }

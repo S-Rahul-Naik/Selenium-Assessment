@@ -6,6 +6,7 @@ import java.io.IOException;
 import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
@@ -94,7 +95,7 @@ public class SauseTestCase extends SauceBaseClass {
         String fname = wb.getSheet("Sheet1").getRow(1).getCell(1).getStringCellValue();
         String Lname = wb.getSheet("Sheet1").getRow(1).getCell(2).getStringCellValue();
         String pin = String.valueOf((int) wb.getSheet("Sheet1").getRow(1).getCell(3).getNumericCellValue());
-
+        
         // Enter checkout information
         CheckOutPom co = new CheckOutPom(driver);
         co.getFname().sendKeys(fname);
