@@ -4,6 +4,7 @@ package Assessment.Day_12;
 /*
  * //TestCase  - 1
 
+
 Login to orangeHrm application ->click on Recruitment link ->click on vacancies link ->enter vacancy name ,
 select job title,add description , select hiring manager, number of positons-> 
 click on save button 
@@ -17,6 +18,7 @@ click on save->logut and then login again ->verify whether the edited details ar
  */
 
 import java.awt.AWTException;
+
 import java.awt.Robot;
 import java.awt.event.KeyEvent;
 import java.io.FileInputStream;
@@ -27,6 +29,7 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -49,7 +52,7 @@ public class TestCase extends HRMBaseClass{
 	@Test(dataProvider="JobDetails")
 	// Create vacancy using the data from Excel
 	public void TestCase1(String vName,String vDes,String hrm) throws FileNotFoundException, AWTException, InterruptedException {
-		System.out.println("Test Case - 1 Executing");
+		Reporter.log("Test Case - 1 Executing");
 		// Open Recruitment
 		HomePagePom r = new HomePagePom(driver);
 		r.getrecruiterLink();
@@ -79,14 +82,15 @@ public class TestCase extends HRMBaseClass{
 		vp.getnoofp();
 		// Save the vacancy
 		vp.getsavebtn();
-		System.out.println("Test Case - 1 Executed");
+		Thread.sleep(3000);
+		Reporter.log("Test Case - 1 Executed");
 	}
 	
 	
 	// Test Case 2: Update and verify employee details
 	@Test
 	public void TestCase_2() throws InterruptedException, IOException {
-		System.out.println("Test Case - 2 Executing");
+		Reporter.log("Test Case - 2 Executing");
 	    // Open My Info
 	    HomePagePom r = new HomePagePom(driver);
 	    r.getMyInfoLink();
@@ -94,14 +98,13 @@ public class TestCase extends HRMBaseClass{
 	    MyInfoPom m = new MyInfoPom(driver);
 	    m.getFname("Charlie");
 	    m.getLname("Chaplin");
-	    m.getempId("SMILEBABY");
+	    m.getempId("SMILE");
 	    // Save the changes
 	    m.getSaveBtn();
 	    // Logout
 	    LogOutPom lg = new LogOutPom(driver);
 	    lg.getdropd();
-	    lg.getl
-	    ogout();
+	    lg.getlogout();
 	    // Login again
 	    LoginPom li = new LoginPom(driver);
 	    li.getUn();
@@ -118,6 +121,6 @@ public class TestCase extends HRMBaseClass{
 	    // Verify the updated details
 	    Assert.assertEquals(updatedFname, "Charlie");
 	    Assert.assertEquals(updatedLname, "Chaplin");
-	    System.out.println("Test Case - 2 Executed");
+	    Reporter.log("Test Case - 2 Executed");
 	}
 }
