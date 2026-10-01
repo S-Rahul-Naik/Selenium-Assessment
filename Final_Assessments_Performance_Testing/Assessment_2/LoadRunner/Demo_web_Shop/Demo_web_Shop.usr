@@ -1,0 +1,75 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=Demo_web_Shop.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=2022
+MinorVersion=0
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=2022.0.0.0
+DFERebrandFlag=Done
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=2022.0.0.0
+DisableRegenerate=0
+Encoding=ANSI
+Description=
+ScriptLocale=en-IN
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+WebSocketBuffer.h=
+[Modified Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Action=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="1_LaunchUrl__*delimiter*__2_Register__*delimiter*__3_RegisterDetails__*delimiter*__4_Category__*delimiter*__5_product__*delimiter*__6_AddtoCart__*delimiter*__7_ShoppingCart__*delimiter*__8_address__*delimiter*__9_ShippingAddress__*delimiter*__10_shippingMethod__*delimiter*__11_paymentMethod__*delimiter*__12_paymentinfo__*delimiter*__13_confirm"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+1_LaunchUrl=
+2_Register=
+3_RegisterDetails=
+4_Category=
+5_product=
+6_AddtoCart=
+7_ShoppingCart=
+8_address=
+9_ShippingAddress=
+10_shippingMethod=
+11_paymentMethod=
+12_paymentinfo=
+13_confirm=

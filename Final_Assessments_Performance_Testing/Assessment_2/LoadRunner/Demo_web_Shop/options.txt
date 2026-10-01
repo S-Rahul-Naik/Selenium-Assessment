@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Lenovo\Downloads\FInal_Performance_Testing\FInal_Performance_Testing\Assessment_2\LoadRunner\Demo_web_Shop
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\lenovo\downloads\final_performance_testing\final_performance_testing\assessment_2\loadrunner\demo_web_shop\\logfile.log
+c:\users\lenovo\downloads\final_performance_testing\final_performance_testing\assessment_2\loadrunner\demo_web_shop\\combined_Demo_web_Shop.c
+c:\users\lenovo\downloads\final_performance_testing\final_performance_testing\assessment_2\loadrunner\demo_web_shop\\pre_cci.c

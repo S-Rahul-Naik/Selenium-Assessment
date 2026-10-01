@@ -1,0 +1,12 @@
+[t8]
+FileName1=t8.html
+URL1=https://normandy.cdn.mozilla.net/api/v1/
+Total=4
+ContentType=text/plain
+SnapshotXmlFile=snapshot_8.xml
+FileName2=t8_generate_204.txt
+URL2=http://firefox-portal-detection.com/generate_204
+FileName3=t8_b8aa99dd-b2b6-4312-8c40-d15867393b13.html
+URL3=https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/ms-language-packs/b8aa99dd-b2b6-4312-8c40-d15867393b13.ftl
+FileName4=t8_generate_204.txt
+URL4=http://firefox-portal-detection.com/generate_204

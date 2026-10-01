@@ -1,0 +1,1329 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "x-requested-with",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-gpc",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-user",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-site",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-mode",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-dest",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "priority",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/x-icon"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/jpeg"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/gif"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/x-javascript"
+    },
+    {
+      "IsNonResource": true,
+      "type": "application/json"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 9,
+    "RecordedBrowser": "Firefox",
+    "RecordingDate": "Oct-01-2026",
+    "RecordingDuration": 420266,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1790845501,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 866899,
+    "TotalBytesSent": 84483,
+    "TotalRequests": 79,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:157.0) Gecko/20100101 Firefox/157.0"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "tricentis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[64:ff9b::34ae:350]",
+          "IncludeInScript": true,
+          "Name": "demowebshop.tricentis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 594,
+              "EventId": 2686,
+              "HttpStatus": 200,
+              "Size": 4480,
+              "URL": "https://demowebshop.tricentis.com/checkout/completed/"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 1109,
+              "EventId": 2684,
+              "HttpStatus": 200,
+              "Size": 133,
+              "URL": "https://demowebshop.tricentis.com/checkout/OpcConfirmOrder/"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 469,
+              "EventId": 2672,
+              "HttpStatus": 200,
+              "Size": 2002,
+              "URL": "https://demowebshop.tricentis.com/checkout/OpcSavePaymentInfo/"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 359,
+              "EventId": 2660,
+              "HttpStatus": 200,
+              "Size": 481,
+              "URL": "https://demowebshop.tricentis.com/checkout/OpcSavePaymentMethod/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 219,
+              "EventId": 2642,
+              "HttpStatus": 200,
+              "Size": 2878,
+              "URL": "https://demowebshop.tricentis.com/plugins/Payments.PurchaseOrder/logo.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 234,
+              "EventId": 2640,
+              "HttpStatus": 200,
+              "Size": 3139,
+              "URL": "https://demowebshop.tricentis.com/plugins/Payments.Manual/logo.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 250,
+              "EventId": 2610,
+              "HttpStatus": 200,
+              "Size": 3129,
+              "URL": "https://demowebshop.tricentis.com/plugins/Payments.CheckMoneyOrder/logo.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 250,
+              "EventId": 2608,
+              "HttpStatus": 200,
+              "Size": 3045,
+              "URL": "https://demowebshop.tricentis.com/plugins/Payments.CashOnDelivery/logo.jpg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 468,
+              "EventId": 2606,
+              "HttpStatus": 200,
+              "Size": 872,
+              "URL": "https://demowebshop.tricentis.com/checkout/OpcSaveShippingMethod/"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 500,
+              "EventId": 2594,
+              "HttpStatus": 200,
+              "Size": 616,
+              "URL": "https://demowebshop.tricentis.com/checkout/OpcSaveShipping/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 313,
+              "EventId": 2582,
+              "HttpStatus": 200,
+              "Size": 612,
+              "URL": "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/arrow-up.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 1172,
+              "EventId": 2569,
+              "HttpStatus": 200,
+              "Size": 5420,
+              "URL": "https://demowebshop.tricentis.com/checkout/OpcSaveBilling/"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 328,
+              "EventId": 2567,
+              "HttpStatus": 200,
+              "Size": 327,
+              "URL": "https://demowebshop.tricentis.com/country/getstatesbycountryid?countryId=2&addEmptyStateIfRequired=true&_=1790845837370"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 1078,
+              "EventId": 2556,
+              "HttpStatus": 200,
+              "Size": 5063,
+              "URL": "https://demowebshop.tricentis.com/checkout/OpcSaveBilling/"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 234,
+              "EventId": 2418,
+              "HttpStatus": 200,
+              "Size": 2816,
+              "URL": "https://demowebshop.tricentis.com/Scripts/public.onepagecheckout.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 250,
+              "EventId": 2416,
+              "HttpStatus": 200,
+              "Size": 1070,
+              "URL": "https://demowebshop.tricentis.com/Scripts/public.accordion.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 735,
+              "EventId": 2404,
+              "HttpStatus": 200,
+              "Size": 10089,
+              "URL": "https://demowebshop.tricentis.com/onepagecheckout"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 344,
+              "EventId": 2402,
+              "HttpStatus": 302,
+              "Size": 133,
+              "URL": "https://demowebshop.tricentis.com/checkout"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 359,
+              "EventId": 2400,
+              "HttpStatus": 302,
+              "Size": 126,
+              "URL": "https://demowebshop.tricentis.com/cart"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 390,
+              "EventId": 2388,
+              "HttpStatus": 200,
+              "Size": 673,
+              "URL": "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/ajax_loader_small.gif"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 375,
+              "EventId": 2386,
+              "HttpStatus": 200,
+              "Size": 155,
+              "URL": "https://demowebshop.tricentis.com/country/getstatesbycountryid?countryId=4&addEmptyStateIfRequired=true&_=1790845785857"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 250,
+              "EventId": 2370,
+              "HttpStatus": 200,
+              "Size": 2114,
+              "URL": "https://demowebshop.tricentis.com/content/images/thumbs/0000130_computing-and-internet_80.jpeg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 641,
+              "EventId": 2366,
+              "HttpStatus": 200,
+              "Size": 9851,
+              "URL": "https://demowebshop.tricentis.com/cart"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 360,
+              "EventId": 2351,
+              "HttpStatus": 200,
+              "Size": 785,
+              "URL": "https://demowebshop.tricentis.com/addproducttocart/details/13/1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 219,
+              "EventId": 2339,
+              "HttpStatus": 200,
+              "Size": 1318,
+              "URL": "https://demowebshop.tricentis.com/content/images/thumbs/0000130_computing-and-internet_47.jpeg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 218,
+              "EventId": 2337,
+              "HttpStatus": 200,
+              "Size": 703,
+              "URL": "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/ico-close-notification-bar.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 516,
+              "EventId": 2335,
+              "HttpStatus": 200,
+              "Size": 783,
+              "URL": "https://demowebshop.tricentis.com/addproducttocart/details/13/1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 359,
+              "EventId": 2325,
+              "HttpStatus": 200,
+              "Size": 36343,
+              "URL": "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/ajax_loader_large.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 344,
+              "EventId": 2313,
+              "HttpStatus": 200,
+              "Size": 2017,
+              "URL": "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/free-shipping.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 328,
+              "EventId": 2310,
+              "HttpStatus": 200,
+              "Size": 2492,
+              "URL": "https://demowebshop.tricentis.com/content/images/thumbs/0000118_blue-jeans_125.jpeg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 312,
+              "EventId": 2307,
+              "HttpStatus": 200,
+              "Size": 9680,
+              "URL": "https://demowebshop.tricentis.com/content/images/thumbs/0000130_computing-and-internet_300.jpeg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 234,
+              "EventId": 2300,
+              "HttpStatus": 200,
+              "Size": 13925,
+              "URL": "https://demowebshop.tricentis.com/Scripts/jquery.magnific-popup.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 219,
+              "EventId": 2298,
+              "HttpStatus": 200,
+              "Size": 1988,
+              "URL": "https://demowebshop.tricentis.com/Content/magnific-popup/magnific-popup.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 1328,
+              "EventId": 2284,
+              "HttpStatus": 200,
+              "Size": 8378,
+              "URL": "https://demowebshop.tricentis.com/computing-and-internet"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 282,
+              "EventId": 2266,
+              "HttpStatus": 200,
+              "Size": 666,
+              "URL": "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/ico-arrow-r.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 281,
+              "EventId": 2264,
+              "HttpStatus": 200,
+              "Size": 2770,
+              "URL": "https://demowebshop.tricentis.com/content/images/thumbs/0000132_science_125.jpeg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 281,
+              "EventId": 2262,
+              "HttpStatus": 200,
+              "Size": 3321,
+              "URL": "https://demowebshop.tricentis.com/content/images/thumbs/0000131_health-book_125.jpeg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 250,
+              "EventId": 2260,
+              "HttpStatus": 200,
+              "Size": 3252,
+              "URL": "https://demowebshop.tricentis.com/content/images/thumbs/0000208_fiction-ex_125.jpeg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 235,
+              "EventId": 2258,
+              "HttpStatus": 200,
+              "Size": 3272,
+              "URL": "https://demowebshop.tricentis.com/content/images/thumbs/0000133_fiction_125.jpeg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 219,
+              "EventId": 2256,
+              "HttpStatus": 200,
+              "Size": 3458,
+              "URL": "https://demowebshop.tricentis.com/content/images/thumbs/0000209_copy-of-computing-and-internet-ex_125.jpeg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 203,
+              "EventId": 2254,
+              "HttpStatus": 200,
+              "Size": 3462,
+              "URL": "https://demowebshop.tricentis.com/content/images/thumbs/0000130_computing-and-internet_125.jpeg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 609,
+              "EventId": 2251,
+              "HttpStatus": 200,
+              "Size": 6939,
+              "URL": "https://demowebshop.tricentis.com/books"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 547,
+              "EventId": 2054,
+              "HttpStatus": 200,
+              "Size": 7598,
+              "URL": "https://demowebshop.tricentis.com/"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 782,
+              "EventId": 2035,
+              "HttpStatus": 200,
+              "Size": 5075,
+              "URL": "https://demowebshop.tricentis.com/registerresult/1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 828,
+              "EventId": 2033,
+              "HttpStatus": 302,
+              "Size": 134,
+              "URL": "https://demowebshop.tricentis.com/register"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 172,
+              "EventId": 1964,
+              "HttpStatus": 200,
+              "Size": 182,
+              "URL": "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/top-menu-triangle.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 485,
+              "EventId": 1863,
+              "HttpStatus": 200,
+              "Size": 5920,
+              "URL": "https://demowebshop.tricentis.com/register"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 234,
+              "EventId": 1851,
+              "HttpStatus": 200,
+              "Size": 1281,
+              "URL": "https://demowebshop.tricentis.com/Plugins/Widgets.NivoSlider/Content/nivoslider/themes/default/bullets.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 219,
+              "EventId": 1849,
+              "HttpStatus": 200,
+              "Size": 824,
+              "URL": "https://demowebshop.tricentis.com/Plugins/Widgets.NivoSlider/Content/nivoslider/themes/default/arrows.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/x-icon",
+              "DownloadTime": 234,
+              "EventId": 1847,
+              "HttpStatus": 200,
+              "Size": 1150,
+              "URL": "https://demowebshop.tricentis.com/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 219,
+              "EventId": 1811,
+              "HttpStatus": 200,
+              "Size": 208,
+              "URL": "https://demowebshop.tricentis.com/Content/jquery-ui-themes/smoothness/images/ui-bg_flat_75_ffffff_40x100.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 219,
+              "EventId": 1803,
+              "HttpStatus": 200,
+              "Size": 3659,
+              "URL": "https://demowebshop.tricentis.com/content/images/thumbs/0000204_simple-computer_125.jpeg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 203,
+              "EventId": 1781,
+              "HttpStatus": 200,
+              "Size": 3661,
+              "URL": "https://demowebshop.tricentis.com/content/images/thumbs/0000172_build-your-own-cheap-computer_125.jpeg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 219,
+              "EventId": 1776,
+              "HttpStatus": 200,
+              "Size": 7188,
+              "URL": "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/logo.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 266,
+              "EventId": 1769,
+              "HttpStatus": 200,
+              "Size": 1737,
+              "URL": "https://demowebshop.tricentis.com/Plugins/Widgets.NivoSlider/Content/nivoslider/themes/default/loading.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 250,
+              "EventId": 1767,
+              "HttpStatus": 200,
+              "Size": 685,
+              "URL": "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/star-x-inactive.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 219,
+              "EventId": 1764,
+              "HttpStatus": 200,
+              "Size": 631,
+              "URL": "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/star-x-active.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 203,
+              "EventId": 1749,
+              "HttpStatus": 200,
+              "Size": 58,
+              "URL": "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/bullet-right.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 234,
+              "EventId": 1721,
+              "HttpStatus": 200,
+              "Size": 927,
+              "URL": "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/top-menu-divider.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 250,
+              "EventId": 1706,
+              "HttpStatus": 200,
+              "Size": 7335,
+              "URL": "https://demowebshop.tricentis.com/content/images/thumbs/0000224_141-inch-laptop_125.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 218,
+              "EventId": 1702,
+              "HttpStatus": 200,
+              "Size": 2785,
+              "URL": "https://demowebshop.tricentis.com/content/images/thumbs/0000015_25-virtual-gift-card_125.jpeg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 250,
+              "EventId": 1699,
+              "HttpStatus": 200,
+              "Size": 440464,
+              "URL": "https://demowebshop.tricentis.com/content/images/thumbs/0000240.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 219,
+              "EventId": 1696,
+              "HttpStatus": 200,
+              "Size": 3674,
+              "URL": "https://demowebshop.tricentis.com/content/images/thumbs/0000031_build-your-own-computer_125.jpeg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 219,
+              "EventId": 1693,
+              "HttpStatus": 200,
+              "Size": 55470,
+              "URL": "https://demowebshop.tricentis.com/content/images/thumbs/0000215.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 203,
+              "EventId": 1691,
+              "HttpStatus": 200,
+              "Size": 3659,
+              "URL": "https://demowebshop.tricentis.com/content/images/thumbs/0000201_build-your-own-expensive-computer_125.jpeg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 266,
+              "EventId": 1669,
+              "HttpStatus": 200,
+              "Size": 2302,
+              "URL": "https://demowebshop.tricentis.com/Scripts/jquery.validate.unobtrusive.min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 296,
+              "EventId": 1662,
+              "HttpStatus": 200,
+              "Size": 6796,
+              "URL": "https://demowebshop.tricentis.com/Scripts/jquery.validate.min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 329,
+              "EventId": 1660,
+              "HttpStatus": 200,
+              "Size": 1016,
+              "URL": "https://demowebshop.tricentis.com/Plugins/Widgets.NivoSlider/Content/nivoslider/nivo-slider.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 313,
+              "EventId": 1658,
+              "HttpStatus": 200,
+              "Size": 817,
+              "URL": "https://demowebshop.tricentis.com/Scripts/public.ajaxcart.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 281,
+              "EventId": 1655,
+              "HttpStatus": 200,
+              "Size": 4784,
+              "URL": "https://demowebshop.tricentis.com/Plugins/Widgets.NivoSlider/Scripts/jquery.nivo.slider.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 219,
+              "EventId": 1650,
+              "HttpStatus": 200,
+              "Size": 5287,
+              "URL": "https://demowebshop.tricentis.com/Content/jquery-ui-themes/smoothness/jquery-ui-1.10.3.custom.min.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 219,
+              "EventId": 1648,
+              "HttpStatus": 200,
+              "Size": 956,
+              "URL": "https://demowebshop.tricentis.com/Scripts/public.common.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 328,
+              "EventId": 1629,
+              "HttpStatus": 200,
+              "Size": 3072,
+              "URL": "https://demowebshop.tricentis.com/Scripts/jquery-migrate-1.2.1.min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 312,
+              "EventId": 1627,
+              "HttpStatus": 200,
+              "Size": 60492,
+              "URL": "https://demowebshop.tricentis.com/Scripts/jquery-ui-1.10.3.custom.min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 204,
+              "EventId": 1613,
+              "HttpStatus": 200,
+              "Size": 33422,
+              "URL": "https://demowebshop.tricentis.com/Scripts/jquery-1.10.2.min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 203,
+              "EventId": 1611,
+              "HttpStatus": 200,
+              "Size": 912,
+              "URL": "https://demowebshop.tricentis.com/Plugins/Widgets.NivoSlider/Content/nivoslider/themes/default/default.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 234,
+              "EventId": 1603,
+              "HttpStatus": 200,
+              "Size": 4274,
+              "URL": "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/responsive.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 250,
+              "EventId": 1600,
+              "HttpStatus": 200,
+              "Size": 16116,
+              "URL": "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/styles.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 906,
+              "EventId": 1585,
+              "HttpStatus": 200,
+              "Size": 7572,
+              "URL": "https://demowebshop.tricentis.com/"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "mozilla.org",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[64:ff9b::2236:b9f7]",
+          "IncludeInScript": false,
+          "Name": "incoming.telemetry.mozilla.org",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 328,
+              "EventId": 1879,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/telemetry/9f5a10a6-3b9b-42c9-b392-aa80382c20fd/event/Firefox/157.0/release/20260924084938?v=4"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 453,
+              "EventId": 1877,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/telemetry/5a330a38-3262-4a2c-96b3-e2726cd7a7c2/main/Firefox/157.0/release/20260924084938?v=4"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 453,
+              "EventId": 1875,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/telemetry/298bffa4-62ea-4d59-b538-04f569012f22/health/Firefox/157.0/release/20260924084938?v=4"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 375,
+              "EventId": 1472,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/nimbus-targeting-context/1/a4263f41-180b-4ae9-bc8e-5aefa95ea3aa"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 328,
+              "EventId": 1464,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/c2824854-e122-4010-b923-a6f90538e1da"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "mozilla.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[64:ff9b::226b:f35d]",
+          "IncludeInScript": false,
+          "Name": "push.services.mozilla.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 297,
+              "EventId": 1448,
+              "HttpStatus": 101,
+              "Size": 0,
+              "URL": "https://push.services.mozilla.com/"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "mozilla-backup.org",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2606:4700:83b4:b0ca:53b:b0a:7af7:6c60]",
+          "IncludeInScript": false,
+          "Name": "aus5.mozilla-backup.org",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "br",
+              "DataType": "text/xml",
+              "DownloadTime": 359,
+              "EventId": 1466,
+              "HttpStatus": 200,
+              "Size": 36,
+              "URL": "https://aus5.mozilla-backup.org/update/6/Firefox/157.0/20260924084938/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%252010.0.0.0.26200.9457%2520(x64)/ISET%3ASSE4_2%2CMEM%3A7913/default/default/update.xml?force=1"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "geotrust.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2600:14e1:18:6d::]",
+          "IncludeInScript": false,
+          "Name": "status.geotrust.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 94,
+              "EventId": 2644,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://status.geotrust.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 93,
+              "EventId": 2636,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://status.geotrust.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 62,
+              "EventId": 2630,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://status.geotrust.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 78,
+              "EventId": 2628,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://status.geotrust.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 62,
+              "EventId": 1310,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://status.geotrust.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 63,
+              "EventId": 1301,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://status.geotrust.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 31,
+              "EventId": 1299,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://status.geotrust.com/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "firefox-portal-detection.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2a04:4e42:200::347]",
+          "IncludeInScript": false,
+          "Name": "firefox-portal-detection.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 109,
+              "EventId": 2540,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://firefox-portal-detection.com/success.txt?ipv6"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 94,
+              "EventId": 2538,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://firefox-portal-detection.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 94,
+              "EventId": 2502,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "http://firefox-portal-detection.com/generate_204"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 109,
+              "EventId": 2238,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://firefox-portal-detection.com/success.txt?ipv6"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 63,
+              "EventId": 2235,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://firefox-portal-detection.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 93,
+              "EventId": 2205,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "http://firefox-portal-detection.com/generate_204"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 78,
+              "EventId": 2196,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://firefox-portal-detection.com/success.txt?ipv6"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 62,
+              "EventId": 2193,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://firefox-portal-detection.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 62,
+              "EventId": 2163,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "http://firefox-portal-detection.com/generate_204"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 94,
+              "EventId": 2151,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://firefox-portal-detection.com/success.txt?ipv6"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 63,
+              "EventId": 2134,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://firefox-portal-detection.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 94,
+              "EventId": 2115,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "http://firefox-portal-detection.com/generate_204"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 94,
+              "EventId": 2017,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://firefox-portal-detection.com/success.txt?ipv6"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 62,
+              "EventId": 2015,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://firefox-portal-detection.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 63,
+              "EventId": 1969,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "http://firefox-portal-detection.com/generate_204"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 78,
+              "EventId": 1951,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://firefox-portal-detection.com/success.txt?ipv6"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 47,
+              "EventId": 1948,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://firefox-portal-detection.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 63,
+              "EventId": 1896,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "http://firefox-portal-detection.com/generate_204"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 79,
+              "EventId": 1546,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://firefox-portal-detection.com/success.txt?ipv6"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 47,
+              "EventId": 1543,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://firefox-portal-detection.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 78,
+              "EventId": 1529,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "http://firefox-portal-detection.com/generate_204"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 62,
+              "EventId": 1435,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://firefox-portal-detection.com/success.txt?ipv6"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 47,
+              "EventId": 1430,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://firefox-portal-detection.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 78,
+              "EventId": 1418,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "http://firefox-portal-detection.com/generate_204"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 62,
+              "EventId": 1295,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://firefox-portal-detection.com/success.txt?ipv6"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 47,
+              "EventId": 1292,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://firefox-portal-detection.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 47,
+              "EventId": 1195,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "http://firefox-portal-detection.com/generate_204"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 78,
+              "EventId": 1059,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "http://firefox-portal-detection.com/generate_204"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "digicert.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2600:14e1:18:6d::]",
+          "IncludeInScript": false,
+          "Name": "ocsp.digicert.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 93,
+              "EventId": 1433,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://ocsp.digicert.com/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": true
+  },
+  "NumberOfCorrelations": 2
+}

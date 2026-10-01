@@ -1,0 +1,20 @@
+POST /register HTTP/1.1
+Host: demowebshop.tricentis.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:157.0) Gecko/20100101 Firefox/157.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.9
+Accept-Encoding: gzip, deflate, br, zstd
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 272
+Origin: https://demowebshop.tricentis.com
+Sec-GPC: 1
+Connection: keep-alive
+Referer: https://demowebshop.tricentis.com/register
+Cookie: Nop.customer=7adbf495-d010-4838-bd1e-d7c869f28e35; ARRAffinity=f4edb6097d47b618727013498965259efd35f8883f487e535625e82c6dc8570c; ARRAffinitySameSite=f4edb6097d47b618727013498965259efd35f8883f487e535625e82c6dc8570c; __RequestVerificationToken=ZDi56_huVUHINF1Iqq72q4nZb3wpYbUWTwf6zvL9BEqj2Lo0lqAu5KrqOsyBzr1Biq5FtQ6XRRCOo4-PGqmWzS9xsiTK5R_d77nFfIL08_U1
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Priority: u=0, i
+

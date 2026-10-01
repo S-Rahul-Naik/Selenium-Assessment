@@ -1,0 +1,19 @@
+POST /checkout/OpcSaveBilling/ HTTP/1.1
+Host: demowebshop.tricentis.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:157.0) Gecko/20100101 Firefox/157.0
+Accept: */*
+Accept-Language: en-US,en;q=0.9
+Accept-Encoding: gzip, deflate, br, zstd
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+X-Requested-With: XMLHttpRequest
+Content-Length: 422
+Origin: https://demowebshop.tricentis.com
+Sec-GPC: 1
+Connection: keep-alive
+Referer: https://demowebshop.tricentis.com/onepagecheckout
+Cookie: Nop.customer=7adbf495-d010-4838-bd1e-d7c869f28e35; ARRAffinity=f4edb6097d47b618727013498965259efd35f8883f487e535625e82c6dc8570c; ARRAffinitySameSite=f4edb6097d47b618727013498965259efd35f8883f487e535625e82c6dc8570c; __RequestVerificationToken=ZDi56_huVUHINF1Iqq72q4nZb3wpYbUWTwf6zvL9BEqj2Lo0lqAu5KrqOsyBzr1Biq5FtQ6XRRCOo4-PGqmWzS9xsiTK5R_d77nFfIL08_U1; NOPCOMMERCE.AUTH=974F42530C35661FB52CA86EAEA370DFC11FE92FE08AEE9B581532863B8A8BF96363AA69D104A515BF6DDF0800A43A0426EB12A9261C9EB645EC4CD96C19FD4FFB8F460F2C553193811AD1C64897740E8E493E2814C9F485DF3560CE4DFAE2C7CA7B77D54424CC2254AC53E069AF7FB6F6ADCA213A987510CBA3FD096CB0666F1AD9F550A9AA1190A52D27022DFC5FFE; NopCommerce.RecentlyViewedProducts=RecentlyViewedProductIds=13
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Priority: u=0
+

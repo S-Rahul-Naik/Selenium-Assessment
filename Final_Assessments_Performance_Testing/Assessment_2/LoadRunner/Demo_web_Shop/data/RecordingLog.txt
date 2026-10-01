@@ -1,0 +1,1268 @@
+[API Trapper      (2698:3564)] Recording in 64-bit mode: C:\Program Files\Mozilla Firefox\firefox.exe
+[API Trapper      (3c60:5af4)] Recording in 64-bit mode: C:\Program Files\Mozilla Firefox\firefox.exe
+[API Trapper      (5864:2c58)] Recording in 64-bit mode: C:\Program Files\Mozilla Firefox\crashhelper.exe
+[Network Analyzer (3c60:5698)] ------------------------------------------------------------------------------------------
+[Network Analyzer (3c60:5698)] Load Network Traffic Analyzers:
+[Network Analyzer (3c60:5698)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (3c60:5698)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (3c60:5698)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (3c60:5698)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (3c60:5698)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (3c60:5698)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (3c60:5698)]     Analyzer Module: local_server (value=)
+[Network Analyzer (3c60:5698)] ------------------------------------------------------------------------------------------
+[Network Analyzer (3c60:53d8)] Address lookup for DESKTOP-ICNCM49 = 10.214.67.215
+[Network Analyzer (3c60:5698)] Establish Listener @ 127.0.0.1:45514
+[Network Analyzer (3c60:5698)] Address lookup for DESKTOP-ICNCM49 = 10.214.67.215
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 127.0.0.1:45514   (Service=)  (Sid=  2)  PROXIED!
+[API Trapper      (5b48:10d8)] Recording in 64-bit mode: C:\Program Files\Mozilla Firefox\firefox.exe
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2600:1901:0:8D82:0:0:0:0: - 443  (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2600:1901:0:8D82:0:0:0:0: - 443  (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:58b4)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 64:FF9B:0:0:0:0:34AE:350: - 443  (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (3c60:58b4)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (3c60:382c)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 64:FF9B:0:0:0:0:34AE:350: - 443  (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (3c60:382c)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 64:FF9B:0:0:0:0:34AE:350: - 443  (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2A04:4E42:600:0:0:0:0:347: - 80  (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:584c)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3c60:3210)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Web Request      (3c60:55c4)] "GET /generate_204"   
+[Network Analyzer (3c60:55c4)]   (Sid:  8) Client -> Server @ : 305 bytes (Service=HTTP)
+[Network Analyzer (3c60:4cec)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3c60:55c4)]   (Sid:  8) Server -> Client : 327 bytes  (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid:  8) Connection Terminated (by Server)
+[Network Analyzer (3c60:5698)] Address lookup for DESKTOP-ICNCM49 = 10.214.67.215
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 151.101.1.91:80   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:53d8)] "GET /generate_204"   
+[Network Analyzer (3c60:53d8)]   (Sid:  9) Client -> Server @ : 305 bytes (Service=HTTP)
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2A04:4E42:25:0:0:0:0:347: - 443  (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (3c60:53d8)]   (Sid:  9) Server -> Client : 327 bytes  (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  9) Connection Terminated (by Server)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2600:1901:0:8D82:0:0:0:0: - 443  (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2A04:4E42:25:0:0:0:0:347: - 443  (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (3c60:2d90)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:10fc)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3c60:1280)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3c60:55c4)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (3c60:55c4)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2600:1901:0:8D82:0:0:0:0: - 443  (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (3c60:10fc)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2600:1901:0:8D82:0:0:0:0: - 443  (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 64:FF9B:0:0:0:0:226B:F35D: - 443  (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (3c60:1258)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 64:FF9B:0:0:0:0:2295:75CA: - 443  (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (3c60:1258)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (3c60:495c)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2A04:4E42:25:0:0:0:0:347: - 443  (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (3c60:31bc)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:50e0)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 64:FF9B:0:0:0:0:2236:B9F7: - 443  (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (3c60:495c)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2A04:4E42:25:0:0:0:0:347: - 443  (Service=)  (Sid= 19)  PROXIED!
+[Net An. Error    (3c60:584c)] SSLAccept(ssl_id = 2436415799664 = 0000023745B2C170) Failed, ctx = 0000023745AE7D30, err = "TLSv1.3 early data", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:5698)] Address lookup for DESKTOP-ICNCM49 = 10.214.67.215
+[Net An. Error    (3c60:584c)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3c60:10ec)]   (Sid: 17) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 151.101.1.91:80   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (3c60: b64)]   (Sid: 18) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3c60:55c4)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2A04:4E42:600:0:0:0:0:347: - 80  (Service=)  (Sid= 21)  PROXIED!
+[Web Request      (3c60:55c4)] "GET /success.txt?ipv6"   
+[Network Analyzer (3c60:55c4)]   (Sid: 21) Client -> Server @ : 324 bytes (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:10ec)]   (Sid: 17) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (3c60:53d8)] "GET /success.txt?ipv4"   
+[Network Analyzer (3c60:53d8)]   (Sid: 20) Client -> Server @ : 324 bytes (Service=HTTP)
+[Network Analyzer (3c60: cd0)]   (Sid: 19) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2600:14E1:18:6D:0:0:0:0: - 80  (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer (3c60:53d8)]   (Sid: 20) Server -> Client : 376 bytes  (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid: 20) Connection Terminated (by Server)
+[Network Analyzer (3c60:55c4)]   (Sid: 21) Server -> Client : 376 bytes  (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 21) Connection Terminated (by Server)
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2600:14E1:18:6D:0:0:0:0: - 80  (Service=)  (Sid= 23)  PROXIED!
+[Web Request      (3c60:55c4)] "POST /"   
+[Network Analyzer (3c60:55c4)]   (Sid: 22) Client -> Server @ : 455 bytes (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "POST /"   
+[Network Analyzer (3c60:55c4)]   (Sid: 23) Client -> Server @ : 455 bytes (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 22) Server -> Client : 287 bytes  (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 23) Server -> Client : 287 bytes  (Service=HTTP)
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2600:14E1:18:6D:0:0:0:0: - 80  (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:2d90)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Net An. Error    (3c60:1280)] SSLAccept(ssl_id = 2436417209536 = 0000023745C844C0) Failed, ctx = 0000023745CAB300, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate
+" 
+[Network Analyzer (3c60:5698)] Address lookup for DESKTOP-ICNCM49 = 10.214.67.215
+[Net An. Error    (3c60:1280)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 151.101.1.91:80   (Service=)  (Sid= 25)  PROXIED!
+[Web Request      (3c60:55c4)] "POST /"   
+[Network Analyzer (3c60:55c4)]   (Sid: 24) Client -> Server @ : 455 bytes (Service=HTTP)
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2A04:4E42:600:0:0:0:0:347: - 80  (Service=)  (Sid= 26)  PROXIED!
+[Network Analyzer (3c60:5698)] Address lookup for DESKTOP-ICNCM49 = 10.214.67.215
+[Network Analyzer (3c60:55c4)]   (Sid: 24) Server -> Client : 287 bytes  (Service=HTTP)
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 23.11.38.161:80   (Service=)  (Sid= 27)  PROXIED!
+[Network Analyzer (3c60:5698)] Address lookup for DESKTOP-ICNCM49 = 10.214.67.215
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 23.11.38.161:80   (Service=)  (Sid= 28)  PROXIED!
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:5698)] Address lookup for DESKTOP-ICNCM49 = 10.214.67.215
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 23.11.38.161:80   (Service=)  (Sid= 29)  PROXIED!
+[Network Analyzer (3c60:4cec)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Net An. Error    (3c60: cd0)] SSLAccept(ssl_id = 2436418041568 = 0000023745D4F6E0) Failed, ctx = 0000023745CAB300, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate
+" 
+[Net An. Error    (3c60: cd0)]   (Sid: 19) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3c60:50e0)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3c60:31bc)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3c60:3210)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "GET /"   
+[Network Analyzer (3c60:55c4)]   (Sid: 15) Client -> Server @ : 592 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2A04:4E42:600:0:0:0:0:347: - 80  (Service=)  (Sid= 30)  PROXIED!
+[Web Request      (3c60:55c4)] "GET /generate_204"   
+[Network Analyzer (3c60:55c4)]   (Sid: 30) Client -> Server @ : 305 bytes (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 30) Server -> Client : 327 bytes  (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 30) Connection Terminated (by Server)
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2600:14E1:18:6D:0:0:0:0: - 80  (Service=)  (Sid= 31)  PROXIED!
+[Web Request      (3c60:55c4)] "POST /"   
+[Network Analyzer (3c60:55c4)]   (Sid: 31) Client -> Server @ : 441 bytes (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:53d8)] "GET /success.txt?ipv4"   
+[Network Analyzer (3c60:53d8)]   (Sid: 25) Client -> Server @ : 324 bytes (Service=HTTP)
+[Web Request      (3c60:55c4)] "GET /success.txt?ipv6"   
+[Network Analyzer (3c60:55c4)]   (Sid: 26) Client -> Server @ : 324 bytes (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid: 25) Server -> Client : 376 bytes  (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid: 25) Connection Terminated (by Server)
+[Network Analyzer (3c60:55c4)]   (Sid: 31) Server -> Client : 288 bytes  (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 26) Server -> Client : 376 bytes  (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 26) Connection Terminated (by Server)
+[Network Analyzer (3c60:55c4)]   (Sid: 15) Server -> Client : 215 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 12) Connection Terminated (by Client)
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2606:4700:83B4:B0CA:53B:B09:7AF7:6C60: - 443  (Service=)  (Sid= 32)  PROXIED!
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60: b64)]   (Sid: 18) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "POST /submit/firefox-desktop/events/1/c2824854-e122-4010-b923-a6f90538e1da"   
+[Network Analyzer (3c60:55c4)]   (Sid: 18) Client -> Server @ : 4000 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 15) WebSocket handshake detected, switching connection type from HTTP to WebSocket
+[Network Analyzer (3c60:55c4)]   (Sid: 15) Client -> Server @ : 117 bytes (SSL)(Service=WEBS)
+[Network Analyzer (3c60:44d8)]   (Sid: 32) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:44d8)]   (Sid: 32) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "GET /update/6/Firefox/157.0/20260924084938/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%252010.0.0.0.26200.9457%2520(x64)/ISET%3ASSE4_2%2CMEM%3A7913/default/default/update.xml?force=1"   
+[Network Analyzer (3c60:55c4)]   (Sid: 32) Client -> Server @ : 478 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 15) Server -> Client : 115 bytes (SSL) (Service=WEBS)
+[Network Analyzer (3c60:55c4)]   (Sid: 18) Server -> Client : 818 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "POST /submit/firefox-desktop/nimbus-targeting-context/1/a4263f41-180b-4ae9-bc8e-5aefa95ea3aa"
+[Network Analyzer (3c60:55c4)]   (Sid: 18) Client -> Server @ : 9341 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 32) Server -> Client : 834 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 17) Connection Terminated (by Client)
+[Network Analyzer (3c60:55c4)]   (Sid: 19) Connection Terminated (by Client)
+[Network Analyzer (3c60:55c4)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer (3c60:55c4)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer (3c60:55c4)]   (Sid: 18) Server -> Client : 907 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 64:FF9B:0:0:0:0:2236:B9F7: - 443  (Service=)  (Sid= 33)  PROXIED!
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:2264)]   (Sid: 33) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3c60:2264)]   (Sid: 33) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2A04:4E42:25:0:0:0:0:347: - 443  (Service=)  (Sid= 34)  PROXIED!
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:4914)]   (Sid: 34) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Net An. Error    (3c60:4914)] SSLAccept(ssl_id = 2436418735712 = 0000023745DF8E60) Failed, ctx = 0000023745CAB300, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate
+" 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Net An. Error    (3c60:4914)]   (Sid: 34) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 11) Connection Terminated (by Client)
+[Network Analyzer (3c60:55c4)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer (3c60:55c4)]   (Sid: 34) Connection Terminated (by Client)
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2A04:4E42:600:0:0:0:0:347: - 80  (Service=)  (Sid= 35)  PROXIED!
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid: 27) Connection Terminated (by Client)
+[Web Request      (3c60:55c4)] "GET /generate_204"   
+[Network Analyzer (3c60:55c4)]   (Sid: 35) Client -> Server @ : 305 bytes (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid: 28) Connection Terminated (by Client)
+[Network Analyzer (3c60:53d8)]   (Sid: 29) Connection Terminated (by Client)
+[Network Analyzer (3c60:55c4)]   (Sid: 35) Server -> Client : 327 bytes  (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 35) Connection Terminated (by Server)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:5698)] Address lookup for DESKTOP-ICNCM49 = 10.214.67.215
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 151.101.1.91:80   (Service=)  (Sid= 36)  PROXIED!
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2A04:4E42:600:0:0:0:0:347: - 80  (Service=)  (Sid= 37)  PROXIED!
+[Web Request      (3c60:55c4)] "GET /success.txt?ipv6"   
+[Network Analyzer (3c60:55c4)]   (Sid: 37) Client -> Server @ : 324 bytes (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:53d8)] "GET /success.txt?ipv4"   
+[Network Analyzer (3c60:53d8)]   (Sid: 36) Client -> Server @ : 324 bytes (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid: 36) Server -> Client : 376 bytes  (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid: 36) Connection Terminated (by Server)
+[Network Analyzer (3c60:55c4)]   (Sid: 37) Server -> Client : 376 bytes  (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 37) Connection Terminated (by Server)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 13) Connection Terminated (by Client)
+[Network Analyzer (3c60:55c4)]   (Sid: 14) Connection Terminated (by Client)
+[Network Analyzer (3c60:55c4)]   (Sid: 16) Connection Terminated (by Client)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 33) Connection Terminated (by Client)
+[User action                 ] StartTransactionEvent 1_LaunchUrl [Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 64:FF9B:0:0:0:0:34AE:350: - 443  (Service=)  (Sid= 38)  PROXIED!
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 64:FF9B:0:0:0:0:34AE:350: - 443  (Service=)  (Sid= 39)  PROXIED!
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:4fdc)]   (Sid: 38) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:4fdc)]   (Sid: 38) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3c60:5a4c)]   (Sid: 39) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:5a4c)]   (Sid: 39) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (3c60:55c4)] "GET /"   
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Client -> Server @ : 471 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 79 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 30 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "GET /Themes/DefaultClean/Content/styles.css"   
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Client -> Server @ : 682 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "GET /Themes/DefaultClean/Content/responsive.css"   
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Client -> Server @ : 686 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 3876 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 3876 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 64:FF9B:0:0:0:0:34AE:350: - 443  (Service=)  (Sid= 40)  PROXIED!
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 723 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 279 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 64:FF9B:0:0:0:0:34AE:350: - 443  (Service=)  (Sid= 41)  PROXIED!
+[Web Request      (3c60:55c4)] "GET /Plugins/Widgets.NivoSlider/Content/nivoslider/themes/default/default.css"   
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Client -> Server @ : 716 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "GET /Scripts/jquery-1.10.2.min.js"   
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Client -> Server @ : 658 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 1237 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 3876 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 64:FF9B:0:0:0:0:34AE:350: - 443  (Service=)  (Sid= 42)  PROXIED!
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:5c74)]   (Sid: 40) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 1215 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 64:FF9B:0:0:0:0:34AE:350: - 443  (Service=)  (Sid= 43)  PROXIED!
+[Web Request      (3c60:55c4)] "GET /Scripts/jquery-ui-1.10.3.custom.min.js"   
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Client -> Server @ : 668 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "GET /Scripts/jquery-migrate-1.2.1.min.js"   
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:5c74)]   (Sid: 40) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 3876 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 3414 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 64:FF9B:0:0:0:0:34AE:350: - 443  (Service=)  (Sid= 44)  PROXIED!
+[Network Analyzer (3c60:3128)]   (Sid: 41) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 3710 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "GET /Scripts/public.common.js"   
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Client -> Server @ : 654 bytes (SSL)(Service=HTTP)
+[Web Request      (3c60:55c4)] "GET /Content/jquery-ui-themes/smoothness/jquery-ui-1.10.3.custom.min.css"   
+[Network Analyzer (3c60:55c4)]   (Sid: 40) Client -> Server @ : 711 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:3128)]   (Sid: 41) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 1296 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 40) Server -> Client : 3876 bytes (SSL) (Service=HTTP)
+[Web Request      (3c60:55c4)] "GET /Plugins/Widgets.NivoSlider/Content/nivoslider/nivo-slider.css"   
+[Network Analyzer (3c60:55c4)]   (Sid: 41) Client -> Server @ : 705 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 40) Server -> Client : 1734 bytes (SSL) (Service=HTTP)
+[Web Request      (3c60:55c4)] "GET /Scripts/public.ajaxcart.js"   
+[Network Analyzer (3c60: 32c)]   (Sid: 42) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Client -> Server @ : 656 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "GET /Plugins/Widgets.NivoSlider/Scripts/jquery.nivo.slider.js"   
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Client -> Server @ : 686 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60: 32c)]   (Sid: 42) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 3872 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 1253 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 1157 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 41) Server -> Client : 1342 bytes (SSL) (Service=HTTP)
+[Web Request      (3c60:55c4)] "GET /Scripts/jquery.validate.min.js"   
+[Network Analyzer (3c60:55c4)]   (Sid: 42) Client -> Server @ : 660 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 42) Server -> Client : 3876 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 42) Server -> Client : 3262 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:598c)]   (Sid: 43) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:598c)]   (Sid: 43) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:4d4c)]   (Sid: 44) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:4d4c)]   (Sid: 44) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (3c60:55c4)] "GET /Scripts/jquery.validate.unobtrusive.min.js"   
+[Network Analyzer (3c60:55c4)]   (Sid: 43) Client -> Server @ : 672 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 43) Server -> Client : 2644 bytes (SSL) (Service=HTTP)
+[Web Request      (3c60:55c4)] "GET /content/images/thumbs/0000240.png"   
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Client -> Server @ : 731 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "GET /content/images/thumbs/0000215.png"   
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Client -> Server @ : 731 bytes (SSL)(Service=HTTP)
+[Web Request      (3c60:55c4)] "GET /content/images/thumbs/0000201_build-your-own-expensive-computer_125.jpeg"   
+[Network Analyzer (3c60:55c4)]   (Sid: 40) Client -> Server @ : 770 bytes (SSL)(Service=HTTP)
+[Web Request      (3c60:55c4)] "GET /content/images/thumbs/0000224_141-inch-laptop_125.png"   
+[Network Analyzer (3c60:55c4)]   (Sid: 41) Client -> Server @ : 751 bytes (SSL)(Service=HTTP)
+[Web Request      (3c60:55c4)] "GET /content/images/thumbs/0000031_build-your-own-computer_125.jpeg"   
+[Network Analyzer (3c60:55c4)]   (Sid: 42) Client -> Server @ : 760 bytes (SSL)(Service=HTTP)
+[Web Request      (3c60:55c4)] "GET /content/images/thumbs/0000015_25-virtual-gift-card_125.jpeg"   
+[Network Analyzer (3c60:55c4)]   (Sid: 43) Client -> Server @ : 757 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "GET /Themes/DefaultClean/Content/images/top-menu-divider.png"   
+[Network Analyzer (3c60:55c4)]   (Sid: 44) Client -> Server @ : 791 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 40) Server -> Client : 3876 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 3876 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 40) Server -> Client : 64 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 42) Server -> Client : 3876 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 3876 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 42) Server -> Client : 79 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 43) Server -> Client : 3066 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 41) Server -> Client : 3876 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 3088 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 41) Server -> Client : 3740 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Web Request      (3c60:55c4)] "GET /Themes/DefaultClean/Content/images/bullet-right.gif"   
+[Network Analyzer (3c60:55c4)]   (Sid: 42) Client -> Server @ : 787 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 44) Server -> Client : 1206 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 2723 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Web Request      (3c60:55c4)] "GET /Plugins/Widgets.NivoSlider/Content/nivoslider/themes/default/loading.gif"   
+[Network Analyzer (3c60:55c4)]   (Sid: 41) Client -> Server @ : 842 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Web Request      (3c60:55c4)] "GET /Themes/DefaultClean/Content/images/star-x-inactive.png"   
+[Network Analyzer (3c60:55c4)]   (Sid: 40) Client -> Server @ : 790 bytes (SSL)(Service=HTTP)
+[Web Request      (3c60:55c4)] "GET /Themes/DefaultClean/Content/images/star-x-active.png"   
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Client -> Server @ : 788 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Web Request      (3c60:55c4)] "GET /Themes/DefaultClean/Content/images/logo.png"   
+[Network Analyzer (3c60:55c4)]   (Sid: 43) Client -> Server @ : 741 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 42) Server -> Client : 336 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Web Request      (3c60:55c4)] "GET /content/images/thumbs/0000172_build-your-own-cheap-computer_125.jpeg"   
+[Network Analyzer (3c60:55c4)]   (Sid: 42) Client -> Server @ : 766 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 909 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 40) Server -> Client : 964 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 41) Server -> Client : 2017 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Web Request      (3c60:55c4)] "GET /content/images/thumbs/0000204_simple-computer_125.jpeg"   
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Client -> Server @ : 752 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 43) Server -> Client : 3876 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Web Request      (3c60:55c4)] "GET /Content/jquery-ui-themes/smoothness/images/ui-bg_flat_75_ffffff_40x100.png"   
+[Network Analyzer (3c60:55c4)]   (Sid: 40) Client -> Server @ : 839 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 43) Server -> Client : 3590 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 42) Server -> Client : 3876 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 42) Server -> Client : 65 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 3876 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 65 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 40) Server -> Client : 486 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Web Request      (3c60:55c4)] "GET /favicon.ico"   
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Client -> Server @ : 706 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 3703 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "GET /Plugins/Widgets.NivoSlider/Content/nivoslider/themes/default/arrows.png"   
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Client -> Server @ : 841 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "GET /Plugins/Widgets.NivoSlider/Content/nivoslider/themes/default/bullets.png"   
+[Network Analyzer (3c60:55c4)]   (Sid: 41) Client -> Server @ : 842 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 1432 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 1103 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 41) Server -> Client : 1561 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[User action                 ] EndTransactionEvent 1_LaunchUrl [Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[User action                 ] StartTransactionEvent 2_Register [Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "GET /register"   
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Client -> Server @ : 754 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 3861 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 2670 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[User action                 ] EndTransactionEvent 2_Register [API Trapper      (4f74:2898)] Recording in 64-bit mode: C:\Program Files\Mozilla Firefox\crashreporter.exe
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 64:FF9B:0:0:0:0:2236:B9F7: - 443  (Service=)  (Sid= 45)  PROXIED!
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 64:FF9B:0:0:0:0:2236:B9F7: - 443  (Service=)  (Sid= 46)  PROXIED!
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 64:FF9B:0:0:0:0:2236:B9F7: - 443  (Service=)  (Sid= 47)  PROXIED!
+[Network Analyzer (3c60:15b4)]   (Sid: 45) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3c60:15b4)]   (Sid: 45) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:3d74)]   (Sid: 46) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3c60:3d74)]   (Sid: 46) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "POST /submit/telemetry/298bffa4-62ea-4d59-b538-04f569012f22/health/Firefox/157.0/release/20260924084938?v=4"   
+[Network Analyzer (3c60:55c4)]   (Sid: 45) Client -> Server @ : 847 bytes (SSL)(Service=HTTP)
+[Web Request      (3c60:55c4)] "POST /submit/telemetry/5a330a38-3262-4a2c-96b3-e2726cd7a7c2/main/Firefox/157.0/release/20260924084938?v=4"   
+[Network Analyzer (3c60:55c4)]   (Sid: 46) Client -> Server @ : 5859 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:5ac4)]   (Sid: 47) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3c60:5ac4)]   (Sid: 47) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "POST /submit/telemetry/9f5a10a6-3b9b-42c9-b392-aa80382c20fd/event/Firefox/157.0/release/20260924084938?v=4"   
+[Network Analyzer (3c60:55c4)]   (Sid: 47) Client -> Server @ : 4152 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 45) Server -> Client : 800 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 46) Server -> Client : 896 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 47) Server -> Client : 862 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 64:FF9B:0:0:0:0:2236:B9F7: - 443  (Service=)  (Sid= 48)  PROXIED!
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2A04:4E42:25:0:0:0:0:347: - 443  (Service=)  (Sid= 49)  PROXIED!
+[Network Analyzer (3c60:5060)]   (Sid: 48) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3c60:5060)]   (Sid: 48) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:3968)]   (Sid: 49) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Net An. Error    (3c60:3968)] SSLAccept(ssl_id = 2436418029248 = 0000023745D4C6C0) Failed, ctx = 0000023745CAB300, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate
+" 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Net An. Error    (3c60:3968)]   (Sid: 49) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2A04:4E42:600:0:0:0:0:347: - 80  (Service=)  (Sid= 50)  PROXIED!
+[Web Request      (3c60:55c4)] "GET /generate_204"   
+[Network Analyzer (3c60:55c4)]   (Sid: 50) Client -> Server @ : 305 bytes (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 50) Server -> Client : 327 bytes  (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 50) Connection Terminated (by Server)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:5698)] Address lookup for DESKTOP-ICNCM49 = 10.214.67.215
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 151.101.1.91:80   (Service=)  (Sid= 51)  PROXIED!
+[User action                 ] StartTransactionEvent 3_RegisterDetails [Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2A04:4E42:600:0:0:0:0:347: - 80  (Service=)  (Sid= 52)  PROXIED!
+[Web Request      (3c60:55c4)] "GET /success.txt?ipv6"   
+[Network Analyzer (3c60:55c4)]   (Sid: 52) Client -> Server @ : 324 bytes (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:53d8)] "GET /success.txt?ipv4"   
+[Network Analyzer (3c60:53d8)]   (Sid: 51) Client -> Server @ : 324 bytes (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid: 51) Server -> Client : 376 bytes  (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid: 51) Connection Terminated (by Server)
+[Network Analyzer (3c60:55c4)]   (Sid: 52) Server -> Client : 376 bytes  (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 52) Connection Terminated (by Server)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "GET /Themes/DefaultClean/Content/images/top-menu-triangle.png"   
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Client -> Server @ : 929 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 461 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 49) Connection Terminated (by Client)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2A04:4E42:25:0:0:0:0:347: - 443  (Service=)  (Sid= 53)  PROXIED!
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:589c)]   (Sid: 53) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Net An. Error    (3c60:589c)] SSLAccept(ssl_id = 2436418041568 = 0000023745D4F6E0) Failed, ctx = 0000023745CAB300, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate
+" 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Net An. Error    (3c60:589c)]   (Sid: 53) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2A04:4E42:600:0:0:0:0:347: - 80  (Service=)  (Sid= 54)  PROXIED!
+[Web Request      (3c60:55c4)] "GET /generate_204"   
+[Network Analyzer (3c60:55c4)]   (Sid: 54) Client -> Server @ : 305 bytes (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 54) Server -> Client : 327 bytes  (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 54) Connection Terminated (by Server)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:5698)] Address lookup for DESKTOP-ICNCM49 = 10.214.67.215
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 151.101.1.91:80   (Service=)  (Sid= 55)  PROXIED!
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2A04:4E42:600:0:0:0:0:347: - 80  (Service=)  (Sid= 56)  PROXIED!
+[Web Request      (3c60:55c4)] "GET /success.txt?ipv6"   
+[Network Analyzer (3c60:55c4)]   (Sid: 56) Client -> Server @ : 324 bytes (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:53d8)] "GET /success.txt?ipv4"   
+[Network Analyzer (3c60:53d8)]   (Sid: 55) Client -> Server @ : 324 bytes (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid: 55) Server -> Client : 376 bytes  (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 56) Server -> Client : 376 bytes  (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid: 55) Connection Terminated (by Server)
+[Network Analyzer (3c60:55c4)]   (Sid: 56) Connection Terminated (by Server)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 48) Connection Terminated (by Client)
+[Network Analyzer (3c60:55c4)]   (Sid: 53) Connection Terminated (by Client)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "POST /register"   
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Client -> Server @ : 1285 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 909 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "GET /registerresult/1"   
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Client -> Server @ : 1214 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 3861 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 1629 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "GET /"   
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Client -> Server @ : 1206 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 3861 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 56 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[User action                 ] EndTransactionEvent 3_RegisterDetails [Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 22) Connection Terminated (by Client)
+[Network Analyzer (3c60:55c4)]   (Sid: 23) Connection Terminated (by Client)
+[Network Analyzer (3c60:55c4)]   (Sid: 24) Connection Terminated (by Client)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2A04:4E42:25:0:0:0:0:347: - 443  (Service=)  (Sid= 57)  PROXIED!
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 31) Connection Terminated (by Client)
+[Network Analyzer (3c60:555c)]   (Sid: 57) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Net An. Error    (3c60:555c)] SSLAccept(ssl_id = 2436418035408 = 0000023745D4DED0) Failed, ctx = 0000023745CAB300, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate
+" 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Net An. Error    (3c60:555c)]   (Sid: 57) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2A04:4E42:600:0:0:0:0:347: - 80  (Service=)  (Sid= 58)  PROXIED!
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2A04:4E42:25:0:0:0:0:347: - 443  (Service=)  (Sid= 59)  PROXIED!
+[Web Request      (3c60:55c4)] "GET /generate_204"   
+[Network Analyzer (3c60:55c4)]   (Sid: 58) Client -> Server @ : 305 bytes (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60: 830)]   (Sid: 59) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3c60:55c4)]   (Sid: 58) Server -> Client : 327 bytes  (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 58) Connection Terminated (by Server)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:5698)] Address lookup for DESKTOP-ICNCM49 = 10.214.67.215
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 151.101.1.91:80   (Service=)  (Sid= 60)  PROXIED!
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:53d8)] "GET /success.txt?ipv4"   
+[Network Analyzer (3c60:53d8)]   (Sid: 60) Client -> Server @ : 324 bytes (Service=HTTP)
+[User action                 ] StartTransactionEvent 4_Category [Network Analyzer (3c60:53d8)]   (Sid: 60) Server -> Client : 376 bytes  (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid: 60) Connection Terminated (by Server)
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2A04:4E42:600:0:0:0:0:347: - 80  (Service=)  (Sid= 61)  PROXIED!
+[Web Request      (3c60:55c4)] "GET /success.txt?ipv6"   
+[Network Analyzer (3c60:55c4)]   (Sid: 61) Client -> Server @ : 324 bytes (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Net An. Error    (3c60: 830)] SSLAccept(ssl_id = 2436418023088 = 0000023745D4AEB0) Failed, ctx = 0000023745CAB300, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate
+" 
+[Net An. Error    (3c60: 830)]   (Sid: 59) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2A04:4E42:600:0:0:0:0:347: - 80  (Service=)  (Sid= 62)  PROXIED!
+[Network Analyzer (3c60:55c4)]   (Sid: 61) Server -> Client : 376 bytes  (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 61) Connection Terminated (by Server)
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2A04:4E42:25:0:0:0:0:347: - 443  (Service=)  (Sid= 63)  PROXIED!
+[Web Request      (3c60:55c4)] "GET /generate_204"   
+[Network Analyzer (3c60:55c4)]   (Sid: 62) Client -> Server @ : 305 bytes (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60: e88)]   (Sid: 63) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3c60:55c4)]   (Sid: 62) Server -> Client : 327 bytes  (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 62) Connection Terminated (by Server)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:5698)] Address lookup for DESKTOP-ICNCM49 = 10.214.67.215
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 151.101.1.91:80   (Service=)  (Sid= 64)  PROXIED!
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2A04:4E42:600:0:0:0:0:347: - 80  (Service=)  (Sid= 65)  PROXIED!
+[Web Request      (3c60:55c4)] "GET /success.txt?ipv6"   
+[Network Analyzer (3c60:55c4)]   (Sid: 65) Client -> Server @ : 324 bytes (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:53d8)] "GET /success.txt?ipv4"   
+[Network Analyzer (3c60:53d8)]   (Sid: 64) Client -> Server @ : 324 bytes (Service=HTTP)
+[Net An. Error    (3c60: e88)] SSLAccept(ssl_id = 2436418060048 = 0000023745D53F10) Failed, ctx = 0000023745CAB300, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate
+" 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Net An. Error    (3c60: e88)]   (Sid: 63) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid: 64) Server -> Client : 376 bytes  (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid: 64) Connection Terminated (by Server)
+[Network Analyzer (3c60:55c4)]   (Sid: 65) Server -> Client : 376 bytes  (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 65) Connection Terminated (by Server)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 18) Connection Terminated (by Client)
+[Network Analyzer (3c60:55c4)]   (Sid: 32) Connection Terminated (by Client)
+[Network Analyzer (3c60:55c4)]   (Sid: 57) Connection Terminated (by Client)
+[Network Analyzer (3c60:55c4)]   (Sid: 59) Connection Terminated (by Client)
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2A04:4E42:600:0:0:0:0:347: - 80  (Service=)  (Sid= 66)  PROXIED!
+[Web Request      (3c60:55c4)] "GET /generate_204"   
+[Network Analyzer (3c60:55c4)]   (Sid: 66) Client -> Server @ : 305 bytes (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 63) Connection Terminated (by Client)
+[Network Analyzer (3c60:55c4)]   (Sid: 66) Server -> Client : 327 bytes  (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 66) Connection Terminated (by Server)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:5698)] Address lookup for DESKTOP-ICNCM49 = 10.214.67.215
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 151.101.1.91:80   (Service=)  (Sid= 67)  PROXIED!
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2A04:4E42:600:0:0:0:0:347: - 80  (Service=)  (Sid= 68)  PROXIED!
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:53d8)] "GET /success.txt?ipv4"   
+[Network Analyzer (3c60:53d8)]   (Sid: 67) Client -> Server @ : 324 bytes (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid: 67) Server -> Client : 376 bytes  (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid: 67) Connection Terminated (by Server)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "GET /success.txt?ipv6"   
+[Network Analyzer (3c60:55c4)]   (Sid: 68) Client -> Server @ : 324 bytes (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 68) Server -> Client : 376 bytes  (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 68) Connection Terminated (by Server)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "GET /books"   
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Client -> Server @ : 1195 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 3861 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 3493 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "GET /content/images/thumbs/0000130_computing-and-internet_125.jpeg"   
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Client -> Server @ : 1208 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "GET /content/images/thumbs/0000209_copy-of-computing-and-internet-ex_125.jpeg"   
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Client -> Server @ : 1219 bytes (SSL)(Service=HTTP)
+[Web Request      (3c60:55c4)] "GET /content/images/thumbs/0000133_fiction_125.jpeg"   
+[Network Analyzer (3c60:55c4)]   (Sid: 41) Client -> Server @ : 1193 bytes (SSL)(Service=HTTP)
+[Web Request      (3c60:55c4)] "GET /content/images/thumbs/0000208_fiction-ex_125.jpeg"   
+[Network Analyzer (3c60:55c4)]   (Sid: 43) Client -> Server @ : 1196 bytes (SSL)(Service=HTTP)
+[Web Request      (3c60:55c4)] "GET /content/images/thumbs/0000131_health-book_125.jpeg"   
+[Network Analyzer (3c60:55c4)]   (Sid: 42) Client -> Server @ : 1197 bytes (SSL)(Service=HTTP)
+[Web Request      (3c60:55c4)] "GET /content/images/thumbs/0000132_science_125.jpeg"   
+[Network Analyzer (3c60:55c4)]   (Sid: 40) Client -> Server @ : 1193 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "GET /Themes/DefaultClean/Content/images/ico-arrow-r.gif"   
+[Network Analyzer (3c60:55c4)]   (Sid: 44) Client -> Server @ : 1230 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 3743 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 3740 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 41) Server -> Client : 3553 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 43) Server -> Client : 3533 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 42) Server -> Client : 3602 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 40) Server -> Client : 3051 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 44) Server -> Client : 945 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[User action                 ] EndTransactionEvent 4_Category [User action                 ] StartTransactionEvent 5_product [Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "GET /computing-and-internet"   
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Client -> Server @ : 1217 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 3861 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 969 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "GET /Content/magnific-popup/magnific-popup.css"   
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Client -> Server @ : 1215 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "GET /Scripts/jquery.magnific-popup.js"   
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Client -> Server @ : 1192 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 2314 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 3876 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 2199 bytes (SSL) (Service=HTTP)
+[Web Request      (3c60:55c4)] "GET /content/images/thumbs/0000130_computing-and-internet_300.jpeg"   
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Client -> Server @ : 1289 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "GET /content/images/thumbs/0000118_blue-jeans_125.jpeg"   
+[Network Analyzer (3c60:55c4)]   (Sid: 41) Client -> Server @ : 1277 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "GET /Themes/DefaultClean/Content/images/free-shipping.png"   
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Client -> Server @ : 1296 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 3876 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 41) Server -> Client : 2773 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 1989 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 2296 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[User action                 ] EndTransactionEvent 5_product [Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[User action                 ] StartTransactionEvent 6_AddtoCart [Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "GET /Themes/DefaultClean/Content/images/ajax_loader_large.gif"   
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Client -> Server @ : 1300 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "POST /addproducttocart/details/13/1"   
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Client -> Server @ : 1377 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 3876 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4076 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 1204 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "GET /Themes/DefaultClean/Content/images/ico-close-notification-bar.png"   
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Client -> Server @ : 1309 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "GET /content/images/thumbs/0000130_computing-and-internet_47.jpeg"   
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Client -> Server @ : 1288 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 982 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 1599 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent 6_AddtoCart [Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "POST /addproducttocart/details/13/1"   
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Client -> Server @ : 1377 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 1206 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 45) Connection Terminated (by Client)
+[Network Analyzer (3c60:55c4)]   (Sid: 46) Connection Terminated (by Client)
+[Network Analyzer (3c60:55c4)]   (Sid: 47) Connection Terminated (by Client)
+[User action                 ] StartTransactionEvent 7_ShoppingCart [Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "GET /cart"   
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Client -> Server @ : 1280 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 3861 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 2309 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "GET /content/images/thumbs/0000130_computing-and-internet_80.jpeg"   
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Client -> Server @ : 1270 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 2395 bytes (SSL) (Service=HTTP)
+[User action                 ] Pausing...  [Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 40) Connection Terminated (by Client)
+[Network Analyzer (3c60:55c4)]   (Sid: 43) Connection Terminated (by Client)
+[Network Analyzer (3c60:55c4)]   (Sid: 44) Connection Terminated (by Client)
+[Network Analyzer (3c60:55c4)]   (Sid: 42) Connection Terminated (by Client)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "GET /country/getstatesbycountryid?countryId=4&addEmptyStateIfRequired=true&_=1790845785857"   
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Client -> Server @ : 1257 bytes (SSL)(Service=HTTP)
+[Web Request      (3c60:55c4)] "GET /Themes/DefaultClean/Content/images/ajax_loader_small.gif"   
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Client -> Server @ : 1300 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 576 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 952 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "POST /cart"   
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Client -> Server @ : 2449 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 517 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "GET /checkout"   
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Client -> Server @ : 1266 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 531 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "GET /onepagecheckout"   
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Client -> Server @ : 1273 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 3861 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 2548 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "GET /Scripts/public.accordion.js"   
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Client -> Server @ : 1180 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "GET /Scripts/public.onepagecheckout.js"   
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Client -> Server @ : 1186 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 1411 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 3158 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent 7_ShoppingCart [Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 41) Connection Terminated (by Client)
+[User action                 ] StartTransactionEvent 8_address [Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2A04:4E42:25:0:0:0:0:347: - 443  (Service=)  (Sid= 69)  PROXIED!
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2A04:4E42:25:0:0:0:0:347: - 443  (Service=)  (Sid= 70)  PROXIED!
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2A04:4E42:25:0:0:0:0:347: - 443  (Service=)  (Sid= 71)  PROXIED!
+[Network Analyzer (3c60: b44)]   (Sid: 69) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Net An. Error    (3c60: b44)] SSLAccept(ssl_id = 2436418041568 = 0000023745D4F6E0) Failed, ctx = 0000023745CAB300, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate
+" 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Net An. Error    (3c60: b44)]   (Sid: 69) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:478c)]   (Sid: 70) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:30f4)]   (Sid: 71) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3c60:55c4)]   (Sid: 69) Connection Terminated (by Client)
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2A04:4E42:600:0:0:0:0:347: - 80  (Service=)  (Sid= 72)  PROXIED!
+[Network Analyzer (3c60:478c)]   (Sid: 70) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Net An. Error    (3c60:30f4)] SSLAccept(ssl_id = 2436418053888 = 0000023745D52700) Failed, ctx = 0000023745CAB300, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate
+" 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Net An. Error    (3c60:30f4)]   (Sid: 71) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Web Request      (3c60:55c4)] "GET /generate_204"   
+[Network Analyzer (3c60:55c4)]   (Sid: 72) Client -> Server @ : 305 bytes (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 72) Server -> Client : 327 bytes  (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 72) Connection Terminated (by Server)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:5698)] Address lookup for DESKTOP-ICNCM49 = 10.214.67.215
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 151.101.1.91:80   (Service=)  (Sid= 73)  PROXIED!
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2A04:4E42:600:0:0:0:0:347: - 80  (Service=)  (Sid= 74)  PROXIED!
+[Web Request      (3c60:55c4)] "GET /success.txt?ipv6"   
+[Network Analyzer (3c60:55c4)]   (Sid: 74) Client -> Server @ : 324 bytes (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:53d8)] "GET /success.txt?ipv4"   
+[Network Analyzer (3c60:53d8)]   (Sid: 73) Client -> Server @ : 324 bytes (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid: 73) Server -> Client : 376 bytes  (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 74) Server -> Client : 376 bytes  (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid: 73) Connection Terminated (by Server)
+[Network Analyzer (3c60:55c4)]   (Sid: 74) Connection Terminated (by Server)
+[Network Analyzer (3c60:55c4)]   (Sid: 71) Connection Terminated (by Client)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 70) Connection Terminated (by Client)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "POST /checkout/OpcSaveBilling/"   
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Client -> Server @ : 1758 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 3861 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 1624 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 15) Server -> Client : 2 bytes (SSL) (Service=WEBS)
+[Network Analyzer (3c60:55c4)]   (Sid: 15) Client -> Server @ : 6 bytes (SSL)(Service=WEBS)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "GET /country/getstatesbycountryid?countryId=2&addEmptyStateIfRequired=true&_=1790845837370"   
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Client -> Server @ : 1268 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 748 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "POST /checkout/OpcSaveBilling/"   
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Client -> Server @ : 1759 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 3861 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 1981 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "GET /Themes/DefaultClean/Content/images/arrow-up.png"   
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Client -> Server @ : 1291 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 891 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent 8_address [Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[User action                 ] StartTransactionEvent 9_ShippingAddress [Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "POST /checkout/OpcSaveShipping/"   
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Client -> Server @ : 1796 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 1037 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent 9_ShippingAddress [User action                 ] StartTransactionEvent 10_shippingMethod [Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "POST /checkout/OpcSaveShippingMethod/"   
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Client -> Server @ : 1384 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 1293 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "GET /plugins/Payments.CashOnDelivery/logo.jpg"   
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Client -> Server @ : 1261 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "GET /plugins/Payments.CheckMoneyOrder/logo.jpg"   
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Client -> Server @ : 1262 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 3326 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 38) Server -> Client : 3410 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 64:FF9B:0:0:0:0:34AE:350: - 443  (Service=)  (Sid= 75)  PROXIED!
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 64:FF9B:0:0:0:0:34AE:350: - 443  (Service=)  (Sid= 76)  PROXIED!
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 64:FF9B:0:0:0:0:34AE:350: - 443  (Service=)  (Sid= 77)  PROXIED!
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 64:FF9B:0:0:0:0:34AE:350: - 443  (Service=)  (Sid= 78)  PROXIED!
+[Network Analyzer (3c60:5d98)]   (Sid: 75) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2600:14E1:18:6D:0:0:0:0: - 80  (Service=)  (Sid= 79)  PROXIED!
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:2d94)]   (Sid: 76) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "POST /"   
+[Network Analyzer (3c60:55c4)]   (Sid: 79) Client -> Server @ : 455 bytes (Service=HTTP)
+[Network Analyzer (3c60:5698)] Request Connection: Remote Server @ 2600:14E1:18:6D:0:0:0:0: - 80  (Service=)  (Sid= 80)  PROXIED!
+[Web Request      (3c60:55c4)] "POST /"   
+[Network Analyzer (3c60:55c4)]   (Sid: 80) Client -> Server @ : 455 bytes (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 79) Server -> Client : 287 bytes  (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 80) Server -> Client : 287 bytes  (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:5d98)]   (Sid: 75) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3c60:2d94)]   (Sid: 76) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:5628)]   (Sid: 77) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "POST /"   
+[Network Analyzer (3c60:55c4)]   (Sid: 79) Client -> Server @ : 455 bytes (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "GET /plugins/Payments.Manual/logo.jpg"   
+[Network Analyzer (3c60:55c4)]   (Sid: 75) Client -> Server @ : 1253 bytes (SSL)(Service=HTTP)
+[Web Request      (3c60:55c4)] "GET /plugins/Payments.PurchaseOrder/logo.jpg"   
+[Network Analyzer (3c60:55c4)]   (Sid: 76) Client -> Server @ : 1260 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 79) Server -> Client : 287 bytes  (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:5628)]   (Sid: 77) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3c60:55c4)]   (Sid: 75) Server -> Client : 3420 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 76) Server -> Client : 3159 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60: aa8)]   (Sid: 78) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "POST /"   
+[Network Analyzer (3c60:55c4)]   (Sid: 80) Client -> Server @ : 455 bytes (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 80) Server -> Client : 287 bytes  (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60: aa8)]   (Sid: 78) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[User action                 ] EndTransactionEvent 10_shippingMethod [Network Analyzer (3c60:55c4)]   (Sid: 77) Connection Terminated (by Client)
+[Network Analyzer (3c60:55c4)]   (Sid: 78) Connection Terminated (by Client)
+[User action                 ] StartTransactionEvent 11_paymentMethod [Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "POST /checkout/OpcSavePaymentMethod/"   
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Client -> Server @ : 1378 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 902 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent 11_paymentMethod [User action                 ] StartTransactionEvent 12_paymentinfo [Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "POST /checkout/OpcSavePaymentInfo/"   
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Client -> Server @ : 1274 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 2512 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent 12_paymentinfo [User action                 ] StartTransactionEvent 13_confirm [Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "POST /checkout/OpcConfirmOrder/"   
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Client -> Server @ : 1315 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 554 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (3c60:55c4)] "GET /checkout/completed/"   
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Client -> Server @ : 1332 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 3861 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:55c4)]   (Sid: 39) Server -> Client : 1034 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (3c60:53d8)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[User action                 ] EndTransactionEvent 13_confirm 

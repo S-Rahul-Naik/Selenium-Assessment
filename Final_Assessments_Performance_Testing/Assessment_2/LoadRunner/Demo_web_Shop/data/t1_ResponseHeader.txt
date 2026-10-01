@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Content-Length: 7572
+Content-Type: text/html; charset=utf-8
+Date: Thu, 01 Oct 2026 09:06:44 GMT
+Server: Microsoft-IIS/10.0
+Cache-Control: private
+Content-Encoding: gzip
+Set-Cookie: Nop.customer=7adbf495-d010-4838-bd1e-d7c869f28e35; expires=Fri, 01-Oct-2027 09:06:45 GMT; path=/; HttpOnly
+Set-Cookie: ARRAffinity=f4edb6097d47b618727013498965259efd35f8883f487e535625e82c6dc8570c;Path=/;HttpOnly;Secure;Domain=demowebshop.tricentis.com
+Set-Cookie: ARRAffinitySameSite=f4edb6097d47b618727013498965259efd35f8883f487e535625e82c6dc8570c;Path=/;HttpOnly;SameSite=None;Secure;Domain=demowebshop.tricentis.com
+Vary: Accept-Encoding
+X-AspNetMvc-Version: 5.2
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+

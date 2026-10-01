@@ -1,0 +1,10 @@
+GET /country/getstatesbycountryid?countryId=2&addEmptyStateIfRequired=true&_=1790845837370 HTTP/1.1
+Referer: https://demowebshop.tricentis.com/onepagecheckout
+Accept-Language: en-US,en;q=0.9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:157.0) Gecko/20100101 Firefox/157.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: Keep-Alive
+Host: demowebshop.tricentis.com
+Cookie: Nop.customer=95030268-204c-40a5-808f-bba598387a8f; ARRAffinity=f4edb6097d47b618727013498965259efd35f8883f487e535625e82c6dc8570c; ARRAffinitySameSite=f4edb6097d47b618727013498965259efd35f8883f487e535625e82c6dc8570c; __RequestVerificationToken=3H7K4EezObCXBeLkJ8-POxVy80T5dwFSFB0Tmtj_DuyoszKlUVRBQ5diQgWq3xUIWfb8xERGQwFS4w9_amFHMbvQg1I6FQyCdwVarJfqleE1; NopCommerce.RecentlyViewedProducts=RecentlyViewedProductIds=2
+

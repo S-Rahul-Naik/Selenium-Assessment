@@ -1,0 +1,13 @@
+[t2]
+FileName1=t2.htm
+URL1=https://demowebshop.tricentis.com/register
+Total=2
+RequestHeaderFile=t2_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t2_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_2.xml
+FileName2=t2_top-menu-triangle.png
+URL2=https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/top-menu-triangle.png
+[ProtocolInfo]
+ProtocolId=QTWeb

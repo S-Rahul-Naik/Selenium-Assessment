@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Lenovo\Downloads\FInal_Performance_Testing\FInal_Performance_Testing\Assessment_1\LoadRunner\JPetStoreDemo
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\lenovo\downloads\final_performance_testing\final_performance_testing\assessment_1\loadrunner\jpetstoredemo\\logfile.log
+c:\users\lenovo\downloads\final_performance_testing\final_performance_testing\assessment_1\loadrunner\jpetstoredemo\\combined_JPetStoreDemo.c
+c:\users\lenovo\downloads\final_performance_testing\final_performance_testing\assessment_1\loadrunner\jpetstoredemo\\pre_cci.c

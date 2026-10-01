@@ -1,0 +1,13 @@
+[t7]
+FileName1=t7.htm
+URL1=https://jpetstore.aspectran.com/order/newOrderForm
+Total=2
+RequestHeaderFile=t7_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t7_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_7.xml
+FileName2=t7_banner_dogs.gif
+URL2=https://jpetstore.aspectran.com/images/banner_dogs.gif
+[ProtocolInfo]
+ProtocolId=QTWeb

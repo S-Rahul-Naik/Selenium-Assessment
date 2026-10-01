@@ -1,0 +1,2062 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-gpc",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-user",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-site",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-mode",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-dest",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "priority",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/gif"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 1,
+    "RecordedBrowser": "Firefox",
+    "RecordingDate": "Oct-01-2026",
+    "RecordingDuration": 215703,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1790832029,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 105505,
+    "TotalBytesSent": 10726,
+    "TotalRequests": 17,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "sectigo.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2606:4700:9762:c460:7fd:949:1edc:25e4]",
+          "IncludeInScript": false,
+          "Name": "ocsp.sectigo.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 266,
+              "EventId": 2774,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://ocsp.sectigo.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 547,
+              "EventId": 2715,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://ocsp.sectigo.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 328,
+              "EventId": 2713,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://ocsp.sectigo.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 203,
+              "EventId": 2711,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://ocsp.sectigo.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 422,
+              "EventId": 2645,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://ocsp.sectigo.com/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "mozilla.org",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.54.185.247",
+          "IncludeInScript": false,
+          "Name": "incoming.telemetry.mozilla.org",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 422,
+              "EventId": 3331,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/telemetry/5b3576f4-c3f6-49f0-b1eb-cfd3c302e3ca/event/Firefox/127.0/release/20240606181944?v=4"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 422,
+              "EventId": 3327,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/telemetry/0435c9d5-327a-44a8-9c8a-87d5fe36cf6b/main/Firefox/127.0/release/20240606181944?v=4"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 359,
+              "EventId": 2381,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/3b1c0981-da2c-4630-8511-87235f6bd566"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 375,
+              "EventId": 2257,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/ec1a8dd0-0238-4c9e-9b58-488962f75e81"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 609,
+              "EventId": 2104,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/7d25789c-8b38-4a52-8b88-f36526346d6a"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 703,
+              "EventId": 1998,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/metrics/1/79bb5cbc-9e83-493a-8d62-f81c7c24328e"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 625,
+              "EventId": 1893,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/e53b451d-d6d8-4336-bfd2-ea41b6b111e1"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2a04:4e42:25::787]",
+          "IncludeInScript": false,
+          "Name": "archive.mozilla.org",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/x-xpinstall",
+              "DownloadTime": 31,
+              "EventId": 3078,
+              "HttpStatus": 200,
+              "Size": 3794884,
+              "URL": "https://archive.mozilla.org/pub/system-addons/newtab/newtab-158.1.0-build1/newtab.xpi"
+            }
+          ],
+          "SSLCipher": "TLS_AES_128_GCM_SHA256",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "mozilla.net",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.49.51.44",
+          "IncludeInScript": false,
+          "Name": "normandy.cdn.mozilla.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 94,
+              "EventId": 3010,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://normandy.cdn.mozilla.net/api/v1/"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2a04:4e42:25::347]",
+          "IncludeInScript": false,
+          "Name": "firefox-settings-attachments.cdn.mozilla.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 47,
+              "EventId": 5524,
+              "HttpStatus": 200,
+              "Size": 194659,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260912144706--ffc4909c-43f5-4f25-9816-9dc7bedb78ff--897915ee-6ac1-4ce9-8555-322aee4c1ff9.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 47,
+              "EventId": 5508,
+              "HttpStatus": 200,
+              "Size": 224329,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260923154706--ff3b0dda-9d97-4aaa-82e4-65b6e10b1dd5--959e509a-c477-44c4-8061-d80201202822.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 47,
+              "EventId": 5489,
+              "HttpStatus": 200,
+              "Size": 270977,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260909144706--fafc896f-b48a-4a5a-8336-feb802891d52--6150b450-18ed-48cf-8dcf-59ab2bc5d38c.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 46,
+              "EventId": 5472,
+              "HttpStatus": 200,
+              "Size": 233120,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260930154709--f44dc68e-d8d8-4083-8c32-57082a1e5949--fb811e04-ba7e-491f-9015-bd8c4c3f5f1d.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 47,
+              "EventId": 5457,
+              "HttpStatus": 200,
+              "Size": 210471,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260914154705--f3455add-2981-4e34-9ff6-a781745df6d6--09854059-fc99-46bb-acf6-a1c6c192d36a.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 63,
+              "EventId": 5435,
+              "HttpStatus": 200,
+              "Size": 317452,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260906144706--ef5cfb7d-63a9-4a72-9ff1-41ae82b79dd5--0aca76c9-eb23-456a-b9a5-d3fb1da3523e.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 62,
+              "EventId": 5416,
+              "HttpStatus": 200,
+              "Size": 237147,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260909024706--e3ca6a0e-1bcd-4a70-9402-9e6763593e52--7bce81a7-415f-4e8a-a6ad-dc810fa5c763.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 63,
+              "EventId": 5401,
+              "HttpStatus": 200,
+              "Size": 197075,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260907024705--e1315af8-7b8d-4e3c-a061-9ec505f694af--0fa5ce59-e95c-46b1-83ff-0f9973bbc782.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 62,
+              "EventId": 5385,
+              "HttpStatus": 200,
+              "Size": 216301,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260928154705--dbd5b360-5542-4de9-a84b-514ef917221f--185553f6-49cb-41c8-bd2f-b66180e503fd.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 62,
+              "EventId": 5369,
+              "HttpStatus": 200,
+              "Size": 218573,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260927144807--d6109ab3-f0a1-4aa2-86b6-944d3e0d3f23--e640fc8d-1640-491c-be49-ac10c37ec0f0.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 47,
+              "EventId": 5353,
+              "HttpStatus": 200,
+              "Size": 212623,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260903024706--cd1a00a5-6105-4afa-89ca-f240247c1f25--bfe996b4-a4bf-43cf-a9fb-3d009998f812.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 62,
+              "EventId": 5338,
+              "HttpStatus": 200,
+              "Size": 197286,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260919024737--cc75d1bc-f54b-4e38-9ad0-23f99100241c--dc746e52-82c2-4356-9a32-25170b4b052a.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 47,
+              "EventId": 5321,
+              "HttpStatus": 200,
+              "Size": 237677,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260929154705--c3764af8-f53d-498c-908f-6761a69dc516--69c4e144-ff22-4a75-a697-60855231eeb7.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 63,
+              "EventId": 5305,
+              "HttpStatus": 200,
+              "Size": 226047,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260925154705--c330d886-e1f0-4b4a-99df-2fc0d42b1ad1--6dc4a0e2-b563-46a8-9aa4-04b04c36c1ff.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 63,
+              "EventId": 5289,
+              "HttpStatus": 200,
+              "Size": 221295,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260915154705--c24e4270-b834-4ab6-be10-2a5571bd052e--5712aad3-968f-4fd5-ba86-311a6c503ad8.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 78,
+              "EventId": 5273,
+              "HttpStatus": 200,
+              "Size": 217661,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260920024705--c1ce43bc-7469-4030-b9df-991160654463--6042f238-d5be-406d-b51f-0be91af24a40.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 62,
+              "EventId": 5256,
+              "HttpStatus": 200,
+              "Size": 239378,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260902154705--bd1789c2-4f98-4a76-905d-c5e1cb6ab158--42694fb0-ef68-4a06-bbc7-82af1f9c2a1a.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 62,
+              "EventId": 5240,
+              "HttpStatus": 200,
+              "Size": 215077,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260926154706--bce854b7-0f48-4924-8ffa-27f69cc82df9--5769a157-6726-491c-8e1c-4d4bbd19750f.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 62,
+              "EventId": 5223,
+              "HttpStatus": 200,
+              "Size": 237631,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260915034706--ac4922d2-5967-41bd-b86a-8e657a644b5d--b0af3b74-bc78-45eb-84d0-e9ed4cb67744.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 78,
+              "EventId": 5207,
+              "HttpStatus": 200,
+              "Size": 215230,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260926034705--a7160be7-4aab-43f1-b011-62dc325a9a40--4d7158d8-5568-4d65-a4ed-3f74c1fbacc0.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 62,
+              "EventId": 5186,
+              "HttpStatus": 200,
+              "Size": 295024,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260903154705--9d7f4151-fc9c-4d54-b453-de2cc352e0df--47cbe1dc-745d-44c0-bd82-882586cffeb8.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 62,
+              "EventId": 5167,
+              "HttpStatus": 200,
+              "Size": 227789,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260921054706--9ac886c0-5828-4c85-9cb6-4b8c8be89b00--7366e306-5549-4102-b2ee-ea80effd70f0.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 94,
+              "EventId": 5149,
+              "HttpStatus": 200,
+              "Size": 217708,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260930034705--8fd265f4-3c36-4f9a-aa65-2518f7706301--f24fb95f-1821-4c8e-96fd-86de3cbff3bb.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 47,
+              "EventId": 5135,
+              "HttpStatus": 200,
+              "Size": 191194,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260914024705--8cb5feae-2cd9-4a40-a6a5-8ac92f8cb793--8f56a4c1-8b9e-4d60-a557-09077794a921.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 63,
+              "EventId": 5115,
+              "HttpStatus": 200,
+              "Size": 292489,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260910024705--8c94fa6a-6578-4ad3-85c7-2bc622c79cbd--f44c6876-670b-4e22-b2d4-6f1b8754a5a6.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 78,
+              "EventId": 5096,
+              "HttpStatus": 200,
+              "Size": 205603,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260913154705--844490fc-478d-4f33-af57-63042d61b294--3e499e86-aee1-4a6c-9fc0-8b596ed0a3a3.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 78,
+              "EventId": 5081,
+              "HttpStatus": 200,
+              "Size": 209572,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260928034706--8163a2ce-0177-4c59-b339-fbcc5cc103ec--27cd88f4-c576-4a76-9910-7493cf19292d.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 78,
+              "EventId": 5065,
+              "HttpStatus": 200,
+              "Size": 220289,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260924154706--7f6818b6-a390-4686-921c-ba49425f8334--95ec56fc-14e4-4e84-b1e8-03faf0f71fe9.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 63,
+              "EventId": 5050,
+              "HttpStatus": 200,
+              "Size": 201470,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260918024907--796e6929-6ba1-451e-a596-7d17cb889b5b--6c6d2b32-7756-4475-b249-4c6a45b6215b.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 62,
+              "EventId": 5034,
+              "HttpStatus": 200,
+              "Size": 212158,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260917034706--78b7356c-5ef7-4164-8d4b-bc0db1e68b23--c3a33bf7-a876-462e-ab5d-70e8ecabf3a9.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 62,
+              "EventId": 5018,
+              "HttpStatus": 200,
+              "Size": 212810,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260905154705--74bd4db3-dec7-40ee-aa94-479c53811eef--b33c1cec-1c50-4893-b9d9-66ab55baceb2.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 78,
+              "EventId": 5003,
+              "HttpStatus": 200,
+              "Size": 211774,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260916034706--719f6511-952b-4a7b-ac07-e4d50e01a7ac--46237208-b5c7-4e42-b967-222e230e9f35.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 78,
+              "EventId": 4984,
+              "HttpStatus": 200,
+              "Size": 258913,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260910144705--6d8ece96-edfe-4c6c-925f-9b5f73e24d89--21bf4b49-06b5-4479-81ea-96e8c7210ff7.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 63,
+              "EventId": 4968,
+              "HttpStatus": 200,
+              "Size": 223541,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260923024705--6bb8f7f4-98f2-456f-afc4-2168ec2a08a4--3703a3c3-4ff7-4d19-a1e2-75671fdf209c.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 62,
+              "EventId": 4952,
+              "HttpStatus": 200,
+              "Size": 213413,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260927034706--6a6902c2-e9b2-4c4b-af66-2ebee0a4c14f--af2a01a4-0198-4c73-ad13-2a4dc3eb24ef.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 47,
+              "EventId": 4936,
+              "HttpStatus": 200,
+              "Size": 224728,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260924024736--63a8a8b8-5887-43f3-85be-2d3a91f22ec0--9fe48a00-f550-4f26-84e9-758fe6018695.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 47,
+              "EventId": 4917,
+              "HttpStatus": 200,
+              "Size": 250155,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260904154706--61e6b250-56fc-4bfb-8abb-eacd71395d4c--a5b098d2-d87f-4bd6-b017-10b78bb7cf30.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 94,
+              "EventId": 4902,
+              "HttpStatus": 200,
+              "Size": 208934,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260918145138--5fd79c1c-27c3-47e6-aa53-a431f9c7de97--aee7df5a-737c-4513-bd16-2280a4a346cf.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 78,
+              "EventId": 4884,
+              "HttpStatus": 200,
+              "Size": 216566,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260920144705--5b6e59e0-ba9c-47a7-b0df-2a50f0aa9938--c2e69b2b-d643-4756-81ed-0ef5ed00f326.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 63,
+              "EventId": 4823,
+              "HttpStatus": 200,
+              "Size": 211663,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260925034706--5a5038f6-c6f9-4727-bc10-fe5e6955ea31--4610e620-3494-4474-91db-b0ca7dd520a6.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 78,
+              "EventId": 4804,
+              "HttpStatus": 200,
+              "Size": 195587,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260908024706--57a11145-8303-42d6-b983-e003ec5fbcb0--56ff0570-76bd-4db2-a0a8-09f7bb29ca3b.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 94,
+              "EventId": 4788,
+              "HttpStatus": 200,
+              "Size": 209685,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260919144706--4decb528-6ed4-4acd-857a-2fdb6d72a9f6--33029c03-a576-47fc-b0cc-25ae4a1cc7ac.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 63,
+              "EventId": 4773,
+              "HttpStatus": 200,
+              "Size": 197044,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260911154706--4988fc19-e933-4439-b60e-97dfbe27d5f3--d247c0d8-30bd-49dc-83cd-6b7a5145b463.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 78,
+              "EventId": 4756,
+              "HttpStatus": 200,
+              "Size": 242736,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260904024705--47199433-67b7-4545-b58f-25b43927d868--35b00765-7e8c-41a7-9720-db653b51a24f.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 62,
+              "EventId": 4741,
+              "HttpStatus": 200,
+              "Size": 197987,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260905034705--42487f2c-d00e-44c6-94c6-31231e9fdd0c--a66f21a1-d8ec-44af-a92f-027f40c31682.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 47,
+              "EventId": 4726,
+              "HttpStatus": 200,
+              "Size": 203422,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260906024705--3a9c1830-f7d9-4019-b692-0c69add8024b--d3c7b6a8-a41a-47f6-b488-f56462cd7c8a.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 78,
+              "EventId": 4711,
+              "HttpStatus": 200,
+              "Size": 204830,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260916154706--335c0584-221c-4a97-baa5-ef9c453a4ca8--8d0a2de9-5d35-43ea-bfc8-7ab19b5d3068.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 47,
+              "EventId": 4695,
+              "HttpStatus": 200,
+              "Size": 221421,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260922144710--32730ab3-e174-4d96-af0e-b6b4ad7cba94--9b7bc002-fd9e-4dee-8452-f112123a09dc.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 62,
+              "EventId": 4679,
+              "HttpStatus": 200,
+              "Size": 221173,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260929034705--210a8853-b282-482a-94be-79beb21156de--b5c87495-1c40-45cd-a27e-dba5abe8df96.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 63,
+              "EventId": 4664,
+              "HttpStatus": 200,
+              "Size": 198251,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260913024705--1e77b901-4514-47e4-960f-f6925ca2b840--c9d1bd81-f244-4339-9e89-6323eeb7e709.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 94,
+              "EventId": 4650,
+              "HttpStatus": 200,
+              "Size": 184461,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260921144705--1c84b3d8-b89f-43bf-8880-a9dd35ad3734--90997c38-0b94-4968-a51f-886de2762ece.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 78,
+              "EventId": 4634,
+              "HttpStatus": 200,
+              "Size": 223659,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260908144705--191ddaaf-d79e-411c-9d5a-9b154864583a--58486e32-67c0-42cc-b725-09d8fd425757.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 79,
+              "EventId": 4618,
+              "HttpStatus": 200,
+              "Size": 216427,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260907144706--17286781-2173-4a78-8702-4bcd3b3f6bc7--97e56d9e-20be-4416-9706-3d38d6fb73a3.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 47,
+              "EventId": 4603,
+              "HttpStatus": 200,
+              "Size": 208925,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20261001034705--153f9627-3759-452d-ae96-d2d40467807e--2cfeef9d-5754-4dd5-a2f0-ad3b3eddd987.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 62,
+              "EventId": 4588,
+              "HttpStatus": 200,
+              "Size": 206964,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260912024705--130bb6bd-56c3-4aef-a002-bce5bee1297c--a316548e-5e8f-4f46-91e1-56cdbce2bb24.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 78,
+              "EventId": 4573,
+              "HttpStatus": 200,
+              "Size": 207754,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260911024705--0ca7f36d-a15d-4a9d-97b6-8adc4e54139d--86468277-747a-4510-accf-2ba88fe0a8b1.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 94,
+              "EventId": 4511,
+              "HttpStatus": 200,
+              "Size": 211740,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260922034705--0c54781e-f647-4aee-87d4-94e79ceda2c3--207aae98-e467-4207-885f-c9ba0eaa0733.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 47,
+              "EventId": 4290,
+              "HttpStatus": 200,
+              "Size": 200334,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260917144706--09a0e5fb-5279-4fac-b26e-857245b05325--7d2e43c1-b8f8-45a2-9786-c977c9d328f6.delta"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/zip",
+              "DownloadTime": 63,
+              "EventId": 4280,
+              "HttpStatus": 200,
+              "Size": 3992170,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/bundles/security-state--intermediates.zip"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 78,
+              "EventId": 3879,
+              "HttpStatus": 200,
+              "Size": 6324250,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/cert-revocations/20260902025244--adebd750-56a1-47c0-8d24-c829c84a2c7a--124fe565-1feb-4aa5-812b-3b41476f588e.filter"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 62,
+              "EventId": 3291,
+              "HttpStatus": 200,
+              "Size": 15829,
+              "URL": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/ms-language-packs/b8aa99dd-b2b6-4312-8c40-d15867393b13.ftl"
+            }
+          ],
+          "SSLCipher": "TLS_AES_128_GCM_SHA256",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "mozilla.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.107.243.93",
+          "IncludeInScript": false,
+          "Name": "push.services.mozilla.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 485,
+              "EventId": 3762,
+              "HttpStatus": 101,
+              "Size": 0,
+              "URL": "https://push.services.mozilla.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 312,
+              "EventId": 3324,
+              "HttpStatus": 101,
+              "Size": 0,
+              "URL": "https://push.services.mozilla.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 312,
+              "EventId": 2495,
+              "HttpStatus": 101,
+              "Size": 0,
+              "URL": "https://push.services.mozilla.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 297,
+              "EventId": 1729,
+              "HttpStatus": 101,
+              "Size": 0,
+              "URL": "https://push.services.mozilla.com/"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2a04:4e42:25::347]",
+          "IncludeInScript": false,
+          "Name": "firefox.settings.services.mozilla.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 46,
+              "EventId": 3875,
+              "HttpStatus": 200,
+              "Size": 1601,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/main/collections/addons-manager-settings/changeset?_expected=1688747728721"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 47,
+              "EventId": 3872,
+              "HttpStatus": 200,
+              "Size": 2044,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/main/collections/cookie-banner-rules-list/changeset?_expected=1725526980846&_since=1717071078321"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 47,
+              "EventId": 3869,
+              "HttpStatus": 200,
+              "Size": 555,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/main/collections/normandy-recipes-capabilities/changeset?_expected=1737735850466"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 47,
+              "EventId": 3866,
+              "HttpStatus": 200,
+              "Size": 975,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/main/collections/url-classifier-skip-urls/changeset?_expected=1739471652383&_since=1716288373828"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 46,
+              "EventId": 3863,
+              "HttpStatus": 200,
+              "Size": 711,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/main/collections/url-parser-default-unknown-schemes-interventions/changeset?_expected=1743513175300&_since=1743513175300"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 63,
+              "EventId": 3860,
+              "HttpStatus": 200,
+              "Size": 1537,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/main/collections/translations-wasm/changeset?_expected=1749069444811&_since=1705701099603"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 47,
+              "EventId": 3857,
+              "HttpStatus": 200,
+              "Size": 548,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/main/collections/webcompat-interventions/changeset?_expected=1757988949828"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 31,
+              "EventId": 3854,
+              "HttpStatus": 200,
+              "Size": 6907,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/main/collections/password-rules/changeset?_expected=1764684322196&_since=1679600032742"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 47,
+              "EventId": 3851,
+              "HttpStatus": 200,
+              "Size": 4099,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/main/collections/websites-with-shared-credential-backends/changeset?_expected=1764684432032&_since=1659924446436"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 63,
+              "EventId": 3848,
+              "HttpStatus": 200,
+              "Size": 2656,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/main/collections/newtab-frecency-boosted-sponsors/changeset?_expected=1769008497163"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 47,
+              "EventId": 3845,
+              "HttpStatus": 200,
+              "Size": 941,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/main/collections/devtools-devices/changeset?_expected=1773214792526&_since=1773214792526"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 47,
+              "EventId": 3842,
+              "HttpStatus": 200,
+              "Size": 1050,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/main/collections/urlbar-persisted-search-terms/changeset?_expected=1775078290693&_since=1775078290693"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 78,
+              "EventId": 3839,
+              "HttpStatus": 200,
+              "Size": 2257,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/main/collections/search-default-override-allowlist/changeset?_expected=1776781146223&_since=1710168995103"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 62,
+              "EventId": 3836,
+              "HttpStatus": 200,
+              "Size": 714,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/main/collections/moz-essential-domain-fallbacks/changeset?_expected=1776861681298&_since=1776861681298"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 47,
+              "EventId": 3832,
+              "HttpStatus": 200,
+              "Size": 19132,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/security-state/collections/onecrl/changeset?_expected=1781825227560&_since=1710189695302"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 359,
+              "EventId": 3829,
+              "HttpStatus": 200,
+              "Size": 936,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/main/collections/newtab-section-layouts/changeset?_expected=1787340727599&_since=1787340727599"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 62,
+              "EventId": 3826,
+              "HttpStatus": 200,
+              "Size": 697,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/main/collections/newtab-sections-ordering/changeset?_expected=1787340735328&_since=1787340735328"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 62,
+              "EventId": 3820,
+              "HttpStatus": 200,
+              "Size": 60909,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/main/collections/translations-models/changeset?_expected=1788296824409&_since=1716389617204"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 47,
+              "EventId": 3817,
+              "HttpStatus": 200,
+              "Size": 945,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/main/collections/ai-window-prompts/changeset?_expected=1789590880117&_since=1789590880117"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 62,
+              "EventId": 3814,
+              "HttpStatus": 200,
+              "Size": 1446,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/main/collections/newtab-wallpapers-v2/changeset?_expected=1789662119036&_since=1789662119036"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 78,
+              "EventId": 3811,
+              "HttpStatus": 200,
+              "Size": 5761,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/main/collections/search-telemetry-v2/changeset?_expected=1790262186651&_since=1786632246774"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 62,
+              "EventId": 3808,
+              "HttpStatus": 200,
+              "Size": 1716,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/main/collections/devtools-compatibility-browsers/changeset?_expected=1790321390420&_since=1789711232747"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 47,
+              "EventId": 3805,
+              "HttpStatus": 200,
+              "Size": 1383,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/main/collections/search-config-overrides-v2/changeset?_expected=1790703221206&_since=1710333238310"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 47,
+              "EventId": 3802,
+              "HttpStatus": 200,
+              "Size": 4332,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/main/collections/search-config-v2/changeset?_expected=1790703242032&_since=1789051315933"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 47,
+              "EventId": 3799,
+              "HttpStatus": 200,
+              "Size": 1237,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/main/collections/search-config-icons/changeset?_expected=1790703262927&_since=1789051164551"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 79,
+              "EventId": 3795,
+              "HttpStatus": 200,
+              "Size": 21401,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/blocklists/collections/addons-bloomfilters/changeset?_expected=1790815034021&_since=1789951030118"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 78,
+              "EventId": 3779,
+              "HttpStatus": 200,
+              "Size": 196267,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/security-state/collections/intermediates/changeset?_expected=1790827022784&_since=1717559823094"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 63,
+              "EventId": 3775,
+              "HttpStatus": 200,
+              "Size": 16047,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/security-state/collections/cert-revocations/changeset?_expected=1790827024938"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 62,
+              "EventId": 3772,
+              "HttpStatus": 200,
+              "Size": 8339,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/monitor/collections/changes/changeset?_expected=1790827024938"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 79,
+              "EventId": 2738,
+              "HttpStatus": 200,
+              "Size": 8776,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/main/collections/ms-language-packs/changeset?_expected=1737485866696"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 78,
+              "EventId": 2564,
+              "HttpStatus": 200,
+              "Size": 158,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/monitor/collections/changes/changeset?collection=ms-language-packs&bucket=main&_expected=0"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 93,
+              "EventId": 2433,
+              "HttpStatus": 200,
+              "Size": 57776,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/main/collections/translations-models-v2/changeset?_expected=1788296808921"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 94,
+              "EventId": 2419,
+              "HttpStatus": 200,
+              "Size": 590,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/main/collections/ms-action-allowlists/changeset?_expected=1785339495719"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 94,
+              "EventId": 2417,
+              "HttpStatus": 200,
+              "Size": 946,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/main/collections/cfr/changeset?_expected=1787152656960"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 63,
+              "EventId": 2415,
+              "HttpStatus": 200,
+              "Size": 4034,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/main/collections/nimbus-secure-experiments/changeset?_expected=1790783101857"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 47,
+              "EventId": 2413,
+              "HttpStatus": 200,
+              "Size": 1179,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/main/collections/partitioning-exempt-urls/changeset?_expected=1749058276437"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 63,
+              "EventId": 2375,
+              "HttpStatus": 200,
+              "Size": 170,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/monitor/collections/changes/changeset?collection=partitioning-exempt-urls&bucket=main&_expected=0"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 78,
+              "EventId": 2372,
+              "HttpStatus": 200,
+              "Size": 165,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/monitor/collections/changes/changeset?collection=nimbus-secure-experiments&bucket=main&_expected=0"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 47,
+              "EventId": 2369,
+              "HttpStatus": 200,
+              "Size": 165,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/monitor/collections/changes/changeset?collection=translations-models-v2&bucket=main&_expected=0"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 437,
+              "EventId": 2270,
+              "HttpStatus": 200,
+              "Size": 874,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/main/collections/mfcdm-origins-list/changeset?_expected=1750871406038"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 156,
+              "EventId": 2145,
+              "HttpStatus": 200,
+              "Size": 50550,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/main/collections/fxmonitor-breaches/changeset?_expected=1788787306834"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 125,
+              "EventId": 2137,
+              "HttpStatus": 200,
+              "Size": 878,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/main/collections/third-party-cookie-blocking-exempt-urls/changeset?_expected=1725548360015"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 125,
+              "EventId": 2135,
+              "HttpStatus": 200,
+              "Size": 231291,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/main/collections/crash-reports-ondemand/changeset?_expected=1790760554096"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 94,
+              "EventId": 2128,
+              "HttpStatus": 200,
+              "Size": 13556,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/main/collections/fingerprinting-protection-overrides/changeset?_expected=1782394397652"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 94,
+              "EventId": 2126,
+              "HttpStatus": 200,
+              "Size": 1053,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/main/collections/query-stripping/changeset?_expected=1694689843914"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 109,
+              "EventId": 2124,
+              "HttpStatus": 200,
+              "Size": 155,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/monitor/collections/changes/changeset?collection=cfr&bucket=main&_expected=0"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 93,
+              "EventId": 2122,
+              "HttpStatus": 200,
+              "Size": 1017,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/main/collections/remote-permissions/changeset?_expected=1771411876459"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 63,
+              "EventId": 2119,
+              "HttpStatus": 200,
+              "Size": 59621,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/main/collections/url-classifier-exceptions/changeset?_expected=1790602921619"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 62,
+              "EventId": 2113,
+              "HttpStatus": 200,
+              "Size": 165,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/monitor/collections/changes/changeset?collection=ms-action-allowlists&bucket=main&_expected=0"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 125,
+              "EventId": 2093,
+              "HttpStatus": 200,
+              "Size": 177,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/monitor/collections/changes/changeset?collection=third-party-cookie-blocking-exempt-urls&bucket=main&_expected=0"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 94,
+              "EventId": 2088,
+              "HttpStatus": 200,
+              "Size": 158,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/monitor/collections/changes/changeset?collection=fxmonitor-breaches&bucket=main&_expected=0"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 94,
+              "EventId": 2086,
+              "HttpStatus": 200,
+              "Size": 162,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/monitor/collections/changes/changeset?collection=mfcdm-origins-list&bucket=main&_expected=0"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 78,
+              "EventId": 2078,
+              "HttpStatus": 200,
+              "Size": 160,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/monitor/collections/changes/changeset?collection=crash-reports-ondemand&bucket=main&_expected=0"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 62,
+              "EventId": 2073,
+              "HttpStatus": 200,
+              "Size": 76032,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/main/collections/nimbus-desktop-experiments/changeset?_expected=1790800446784"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 63,
+              "EventId": 2064,
+              "HttpStatus": 200,
+              "Size": 1616,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/main/collections/search-categorization/changeset?_expected=1726599273951"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 63,
+              "EventId": 2010,
+              "HttpStatus": 200,
+              "Size": 160,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/monitor/collections/changes/changeset?collection=search-categorization&bucket=main&_expected=0"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 63,
+              "EventId": 2008,
+              "HttpStatus": 200,
+              "Size": 162,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/monitor/collections/changes/changeset?collection=nimbus-desktop-experiments&bucket=main&_expected=0"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 63,
+              "EventId": 1970,
+              "HttpStatus": 200,
+              "Size": 160,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/monitor/collections/changes/changeset?collection=url-classifier-exceptions&bucket=main&_expected=0"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 47,
+              "EventId": 1967,
+              "HttpStatus": 200,
+              "Size": 171,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/monitor/collections/changes/changeset?collection=fingerprinting-protection-overrides&bucket=main&_expected=0"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 63,
+              "EventId": 1877,
+              "HttpStatus": 200,
+              "Size": 162,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/monitor/collections/changes/changeset?collection=query-stripping&bucket=main&_expected=0"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 46,
+              "EventId": 1862,
+              "HttpStatus": 200,
+              "Size": 159,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/monitor/collections/changes/changeset?collection=remote-permissions&bucket=main&_expected=0"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 47,
+              "EventId": 1725,
+              "HttpStatus": 200,
+              "Size": 742,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/main/collections/hijack-blocklists/changeset?_expected=1605801189258&_since=1605801189258"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 47,
+              "EventId": 1622,
+              "HttpStatus": 200,
+              "Size": 161,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/buckets/monitor/collections/changes/changeset?collection=hijack-blocklists&bucket=main&_expected=0"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 63,
+              "EventId": 1537,
+              "HttpStatus": 200,
+              "Size": 214,
+              "URL": "https://firefox.settings.services.mozilla.com/v2/"
+            }
+          ],
+          "SSLCipher": "TLS_AES_128_GCM_SHA256",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "mozilla-backup.org",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2606:4700:9764:b0ca:5fe:949:7af7:6c60]",
+          "IncludeInScript": false,
+          "Name": "firefox-settings-attachments.mozilla-backup.org",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 109,
+              "EventId": 3635,
+              "HttpStatus": 200,
+              "Size": 15829,
+              "URL": "https://firefox-settings-attachments.mozilla-backup.org/main-workspace/ms-language-packs/b8aa99dd-b2b6-4312-8c40-d15867393b13.ftl"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 94,
+              "EventId": 3527,
+              "HttpStatus": 200,
+              "Size": 15829,
+              "URL": "https://firefox-settings-attachments.mozilla-backup.org/main-workspace/ms-language-packs/b8aa99dd-b2b6-4312-8c40-d15867393b13.ftl"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2606:4700:9764:b0ca:5fe:949:7af7:6c60]",
+          "IncludeInScript": false,
+          "Name": "aus5.mozilla-backup.org",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "br",
+              "DataType": "text/xml",
+              "DownloadTime": 344,
+              "EventId": 1996,
+              "HttpStatus": 200,
+              "Size": 493,
+              "URL": "https://aus5.mozilla-backup.org/update/6/Firefox/156.0.1/20260921121718/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%252010.0.0.0.26200.9457%2520(x64)/ISET%3ASSE4_2%2CMEM%3A7913/default/default/update.xml?force=1"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "jsdelivr.net",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2606:4700:9763:9436:4739:94a:6811:cf05]",
+          "IncludeInScript": false,
+          "Name": "cdn.jsdelivr.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "font/woff2",
+              "DownloadTime": 125,
+              "EventId": 2751,
+              "HttpStatus": 200,
+              "Size": 134044,
+              "URL": "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/fonts/bootstrap-icons.woff2?e34853135f9e39acf64315236852cd5a"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 93,
+              "EventId": 2747,
+              "HttpStatus": 200,
+              "Size": 1084,
+              "URL": "https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets@main/assets/img/favicon-32x32.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 93,
+              "EventId": 2745,
+              "HttpStatus": 200,
+              "Size": 18159,
+              "URL": "https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets@main/assets/img/aspectran-site-logo.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 78,
+              "EventId": 2742,
+              "HttpStatus": 200,
+              "Size": 3778,
+              "URL": "https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets@main/assets/img/android-icon-192x192.png"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 156,
+              "EventId": 2596,
+              "HttpStatus": 200,
+              "Size": 572,
+              "URL": "https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets@main/assets/js/theme-toggler.js?v=20251005"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 140,
+              "EventId": 2594,
+              "HttpStatus": 200,
+              "Size": 790,
+              "URL": "https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets@main/assets/js/navigation.js?v=20250923"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 141,
+              "EventId": 2592,
+              "HttpStatus": 200,
+              "Size": 17073,
+              "URL": "https://cdn.jsdelivr.net/npm/htmx.org@2.0.7/dist/htmx.min.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 140,
+              "EventId": 2586,
+              "HttpStatus": 200,
+              "Size": 24469,
+              "URL": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/css",
+              "DownloadTime": 125,
+              "EventId": 2584,
+              "HttpStatus": 200,
+              "Size": 13598,
+              "URL": "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/css",
+              "DownloadTime": 94,
+              "EventId": 2575,
+              "HttpStatus": 200,
+              "Size": 39189,
+              "URL": "https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets@main/assets/bootstrap@5.3.8/css/aspectran.css"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "jquery.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2a04:4e42:200::411]",
+          "IncludeInScript": false,
+          "Name": "code.jquery.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 31,
+              "EventId": 2571,
+              "HttpStatus": 200,
+              "Size": 30336,
+              "URL": "https://code.jquery.com/jquery-3.7.1.min.js"
+            }
+          ],
+          "SSLCipher": "TLS_AES_128_GCM_SHA256",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "gstatic.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2404:6800:4000:100c::5e]",
+          "IncludeInScript": false,
+          "Name": "fonts.gstatic.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "font/woff2",
+              "DownloadTime": 94,
+              "EventId": 3300,
+              "HttpStatus": 200,
+              "Size": 19304,
+              "URL": "https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWVAewA.woff2"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googleapis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2404:6800:4000:1025::5f]",
+          "IncludeInScript": false,
+          "Name": "safebrowsing.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 141,
+              "EventId": 1930,
+              "HttpStatus": 200,
+              "Size": 5017,
+              "URL": "https://safebrowsing.googleapis.com/v5/hashLists:batchGet?key=AIzaSyC7jsptDS3am4tPx4r3nxis7IMjBc5Dovo&names=se-4b&names=mw-4b&names=uws-4b&names=mwb-4b&names=csdda-32b&version=Cg0IBRAGGAEiAzAwMTABEJuvIRoCGAvaY799&version=Cg0IARAGGAEiAzAwMTABENrPFhoCGAtG%2Bw7m&version=Cg0IAxAGGAEiAzAwMTABEK7KFhoCGAuU7jMY&version=Cg0IBxAGGAEiAzAwMTABEKmMFhoCGAsGcAOV&version=Cg0ICRAGGAEiAzAwMTABECQaAhgL1LNxrg%3D%3D"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2404:6800:4000:100e::5f]",
+          "IncludeInScript": false,
+          "Name": "fonts.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 156,
+              "EventId": 2506,
+              "HttpStatus": 200,
+              "Size": 1855,
+              "URL": "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "firefox-portal-detection.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2a04:4e42::347]",
+          "IncludeInScript": false,
+          "Name": "firefox-portal-detection.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 47,
+              "EventId": 3703,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://firefox-portal-detection.com/success.txt?ipv6"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 78,
+              "EventId": 3700,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://firefox-portal-detection.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 47,
+              "EventId": 3654,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "http://firefox-portal-detection.com/generate_204"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 47,
+              "EventId": 3396,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "http://firefox-portal-detection.com/generate_204"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 62,
+              "EventId": 3158,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "http://firefox-portal-detection.com/generate_204"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 63,
+              "EventId": 2201,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://firefox-portal-detection.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 94,
+              "EventId": 2090,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://firefox-portal-detection.com/success.txt?ipv6"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 62,
+              "EventId": 2039,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "http://firefox-portal-detection.com/generate_204"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 47,
+              "EventId": 1963,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://firefox-portal-detection.com/success.txt?ipv6"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 46,
+              "EventId": 1927,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://firefox-portal-detection.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 46,
+              "EventId": 1744,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "http://firefox-portal-detection.com/generate_204"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 63,
+              "EventId": 1540,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://firefox-portal-detection.com/success.txt?ipv6"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 62,
+              "EventId": 1531,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://firefox-portal-detection.com/success.txt?ipv4"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "digicert.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2600:14e1:18:6d::]",
+          "IncludeInScript": false,
+          "Name": "ocsp.digicert.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 63,
+              "EventId": 1829,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://ocsp.digicert.com/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "aspectran.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "130.162.142.115",
+          "IncludeInScript": true,
+          "Name": "jpetstore.aspectran.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 219,
+              "EventId": 5754,
+              "HttpStatus": 200,
+              "Size": 5638,
+              "URL": "https://jpetstore.aspectran.com/order/viewOrder?orderId=199745&submitted=true"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 219,
+              "EventId": 5750,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://jpetstore.aspectran.com/order/submitOrder"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 203,
+              "EventId": 5711,
+              "HttpStatus": 200,
+              "Size": 5356,
+              "URL": "https://jpetstore.aspectran.com/order/newOrder"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 203,
+              "EventId": 5686,
+              "HttpStatus": 200,
+              "Size": 6161,
+              "URL": "https://jpetstore.aspectran.com/images/banner_dogs.gif"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 297,
+              "EventId": 5648,
+              "HttpStatus": 200,
+              "Size": 5550,
+              "URL": "https://jpetstore.aspectran.com/order/newOrderForm"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 203,
+              "EventId": 5644,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://jpetstore.aspectran.com/account/signon"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 172,
+              "EventId": 5570,
+              "HttpStatus": 200,
+              "Size": 5024,
+              "URL": "https://jpetstore.aspectran.com/account/signonForm?referer=/order/newOrderForm"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 156,
+              "EventId": 5566,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://jpetstore.aspectran.com/order/newOrderForm"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 312,
+              "EventId": 5545,
+              "HttpStatus": 200,
+              "Size": 5318,
+              "URL": "https://jpetstore.aspectran.com/cart/viewCart"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 265,
+              "EventId": 5541,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://jpetstore.aspectran.com/cart/addItemToCart?itemId=EST-32"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 156,
+              "EventId": 4879,
+              "HttpStatus": 200,
+              "Size": 12106,
+              "URL": "https://jpetstore.aspectran.com/images/dog1.gif"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 203,
+              "EventId": 4819,
+              "HttpStatus": 200,
+              "Size": 5032,
+              "URL": "https://jpetstore.aspectran.com/products/K9-RT-01/items/EST-32"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 297,
+              "EventId": 3717,
+              "HttpStatus": 200,
+              "Size": 5048,
+              "URL": "https://jpetstore.aspectran.com/products/K9-RT-01"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 172,
+              "EventId": 3458,
+              "HttpStatus": 200,
+              "Size": 5009,
+              "URL": "https://jpetstore.aspectran.com/categories/DOGS"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 391,
+              "EventId": 2823,
+              "HttpStatus": 200,
+              "Size": 36097,
+              "URL": "https://jpetstore.aspectran.com/images/splash.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 172,
+              "EventId": 2754,
+              "HttpStatus": 200,
+              "Size": 3808,
+              "URL": "https://jpetstore.aspectran.com/images/logo-topbar.gif"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 187,
+              "EventId": 2139,
+              "HttpStatus": 200,
+              "Size": 5358,
+              "URL": "https://jpetstore.aspectran.com/"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": true
+  },
+  "NumberOfCorrelations": 4
+}
